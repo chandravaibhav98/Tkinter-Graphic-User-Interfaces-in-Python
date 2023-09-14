@@ -1,0 +1,417 @@
+[
+    {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "disable",
+        "importPath": "gc",
+        "description": "gc",
+        "isExtraImport": true,
+        "detail": "gc",
+        "documentation": {}
+    },
+    {
+        "label": "disable",
+        "importPath": "gc",
+        "description": "gc",
+        "isExtraImport": true,
+        "detail": "gc",
+        "documentation": {}
+    },
+    {
+        "label": "disable",
+        "importPath": "gc",
+        "description": "gc",
+        "isExtraImport": true,
+        "detail": "gc",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "1-pack",
+        "description": "1-pack",
+        "peekOfCode": "root = Tk()\n# Creating a Label Widget\nmyLabel = Label(root, text=\"tkinter\")\n# Display it on screen\nmyLabel.pack()\nroot.mainloop()",
+        "detail": "1-pack",
+        "documentation": {}
+    },
+    {
+        "label": "myLabel",
+        "kind": 5,
+        "importPath": "1-pack",
+        "description": "1-pack",
+        "peekOfCode": "myLabel = Label(root, text=\"tkinter\")\n# Display it on screen\nmyLabel.pack()\nroot.mainloop()",
+        "detail": "1-pack",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "2-grid",
+        "description": "2-grid",
+        "peekOfCode": "root = Tk()\n# Creating a Label Widget\nmyLabel1 = Label(root, text=\"tkinter\")\nmyLabel2 = Label(root, text=\"chandravaibhav98\")\n# Display it on screen\nmyLabel1.grid(row=0, column=0)\nmyLabel2.grid(row=1, column=1)\n# ---OR---\nmyLabel3 = Label(root, text=\"2-grid\").grid(row=1, column=0)\nmyLabel4 = Label(root, text=\"Python\").grid(row=2, column=1)",
+        "detail": "2-grid",
+        "documentation": {}
+    },
+    {
+        "label": "myLabel1",
+        "kind": 5,
+        "importPath": "2-grid",
+        "description": "2-grid",
+        "peekOfCode": "myLabel1 = Label(root, text=\"tkinter\")\nmyLabel2 = Label(root, text=\"chandravaibhav98\")\n# Display it on screen\nmyLabel1.grid(row=0, column=0)\nmyLabel2.grid(row=1, column=1)\n# ---OR---\nmyLabel3 = Label(root, text=\"2-grid\").grid(row=1, column=0)\nmyLabel4 = Label(root, text=\"Python\").grid(row=2, column=1)\nroot.mainloop()",
+        "detail": "2-grid",
+        "documentation": {}
+    },
+    {
+        "label": "myLabel2",
+        "kind": 5,
+        "importPath": "2-grid",
+        "description": "2-grid",
+        "peekOfCode": "myLabel2 = Label(root, text=\"chandravaibhav98\")\n# Display it on screen\nmyLabel1.grid(row=0, column=0)\nmyLabel2.grid(row=1, column=1)\n# ---OR---\nmyLabel3 = Label(root, text=\"2-grid\").grid(row=1, column=0)\nmyLabel4 = Label(root, text=\"Python\").grid(row=2, column=1)\nroot.mainloop()",
+        "detail": "2-grid",
+        "documentation": {}
+    },
+    {
+        "label": "myLabel3",
+        "kind": 5,
+        "importPath": "2-grid",
+        "description": "2-grid",
+        "peekOfCode": "myLabel3 = Label(root, text=\"2-grid\").grid(row=1, column=0)\nmyLabel4 = Label(root, text=\"Python\").grid(row=2, column=1)\nroot.mainloop()",
+        "detail": "2-grid",
+        "documentation": {}
+    },
+    {
+        "label": "myLabel4",
+        "kind": 5,
+        "importPath": "2-grid",
+        "description": "2-grid",
+        "peekOfCode": "myLabel4 = Label(root, text=\"Python\").grid(row=2, column=1)\nroot.mainloop()",
+        "detail": "2-grid",
+        "documentation": {}
+    },
+    {
+        "label": "button1Click",
+        "kind": 2,
+        "importPath": "3-buttons",
+        "description": "3-buttons",
+        "peekOfCode": "def button1Click():\n    clickedLabel = Label(root, text=\"Thanks\")\n    clickedLabel.pack()\nbutton1 = Button(root, text=\"Click here\", padx=50,\n                 pady=50, command=button1Click)\nbutton1.pack()\nroot.mainloop()",
+        "detail": "3-buttons",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "3-buttons",
+        "description": "3-buttons",
+        "peekOfCode": "root = Tk()\ndef button1Click():\n    clickedLabel = Label(root, text=\"Thanks\")\n    clickedLabel.pack()\nbutton1 = Button(root, text=\"Click here\", padx=50,\n                 pady=50, command=button1Click)\nbutton1.pack()\nroot.mainloop()",
+        "detail": "3-buttons",
+        "documentation": {}
+    },
+    {
+        "label": "button1",
+        "kind": 5,
+        "importPath": "3-buttons",
+        "description": "3-buttons",
+        "peekOfCode": "button1 = Button(root, text=\"Click here\", padx=50,\n                 pady=50, command=button1Click)\nbutton1.pack()\nroot.mainloop()",
+        "detail": "3-buttons",
+        "documentation": {}
+    },
+    {
+        "label": "button1Click",
+        "kind": 2,
+        "importPath": "4-input-fields",
+        "description": "4-input-fields",
+        "peekOfCode": "def button1Click():\n    hello = \"Hi \" + e.get()  # .get() input\n    clickedLabel = Label(root, text=hello)\n    clickedLabel.pack()\nbutton1 = Button(root, text=\"Click here\", padx=10,\n                 pady=10, command=button1Click)\nbutton1.pack()\nroot.mainloop()",
+        "detail": "4-input-fields",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "4-input-fields",
+        "description": "4-input-fields",
+        "peekOfCode": "root = Tk()\ne = Entry(root, width=50, borderwidth=5)\ne.pack()\ne.insert(0, \"Enter Your Name\")  # Placeholder\ndef button1Click():\n    hello = \"Hi \" + e.get()  # .get() input\n    clickedLabel = Label(root, text=hello)\n    clickedLabel.pack()\nbutton1 = Button(root, text=\"Click here\", padx=10,\n                 pady=10, command=button1Click)",
+        "detail": "4-input-fields",
+        "documentation": {}
+    },
+    {
+        "label": "e",
+        "kind": 5,
+        "importPath": "4-input-fields",
+        "description": "4-input-fields",
+        "peekOfCode": "e = Entry(root, width=50, borderwidth=5)\ne.pack()\ne.insert(0, \"Enter Your Name\")  # Placeholder\ndef button1Click():\n    hello = \"Hi \" + e.get()  # .get() input\n    clickedLabel = Label(root, text=hello)\n    clickedLabel.pack()\nbutton1 = Button(root, text=\"Click here\", padx=10,\n                 pady=10, command=button1Click)\nbutton1.pack()",
+        "detail": "4-input-fields",
+        "documentation": {}
+    },
+    {
+        "label": "button1",
+        "kind": 5,
+        "importPath": "4-input-fields",
+        "description": "4-input-fields",
+        "peekOfCode": "button1 = Button(root, text=\"Click here\", padx=10,\n                 pady=10, command=button1Click)\nbutton1.pack()\nroot.mainloop()",
+        "detail": "4-input-fields",
+        "documentation": {}
+    },
+    {
+        "label": "clr",
+        "kind": 2,
+        "importPath": "5-calculator",
+        "description": "5-calculator",
+        "peekOfCode": "def clr():\n    e.delete(0, END)\ndef btnClick(num):\n    current = e.get()\n    e.delete(0, END)\n    e.insert(0, str(current)+str(num))\ndef add():\n    firstnum = e.get()\ndef subtract():\n    pass",
+        "detail": "5-calculator",
+        "documentation": {}
+    },
+    {
+        "label": "btnClick",
+        "kind": 2,
+        "importPath": "5-calculator",
+        "description": "5-calculator",
+        "peekOfCode": "def btnClick(num):\n    current = e.get()\n    e.delete(0, END)\n    e.insert(0, str(current)+str(num))\ndef add():\n    firstnum = e.get()\ndef subtract():\n    pass\ndef multiply():\n    pass",
+        "detail": "5-calculator",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "5-calculator",
+        "description": "5-calculator",
+        "peekOfCode": "def add():\n    firstnum = e.get()\ndef subtract():\n    pass\ndef multiply():\n    pass\ndef divide():\n    pass\ndef equals():\n    pass",
+        "detail": "5-calculator",
+        "documentation": {}
+    },
+    {
+        "label": "subtract",
+        "kind": 2,
+        "importPath": "5-calculator",
+        "description": "5-calculator",
+        "peekOfCode": "def subtract():\n    pass\ndef multiply():\n    pass\ndef divide():\n    pass\ndef equals():\n    pass\nbutton_1 = Button(root, text=\"1\", padx=40, pady=20,\n                  command=lambda: btnClick(1)).grid(row=3, column=0)",
+        "detail": "5-calculator",
+        "documentation": {}
+    },
+    {
+        "label": "multiply",
+        "kind": 2,
+        "importPath": "5-calculator",
+        "description": "5-calculator",
+        "peekOfCode": "def multiply():\n    pass\ndef divide():\n    pass\ndef equals():\n    pass\nbutton_1 = Button(root, text=\"1\", padx=40, pady=20,\n                  command=lambda: btnClick(1)).grid(row=3, column=0)\nbutton_2 = Button(root, text=\"2\", padx=40, pady=20,\n                  command=lambda: btnClick(2)).grid(row=3, column=1)",
+        "detail": "5-calculator",
+        "documentation": {}
+    },
+    {
+        "label": "divide",
+        "kind": 2,
+        "importPath": "5-calculator",
+        "description": "5-calculator",
+        "peekOfCode": "def divide():\n    pass\ndef equals():\n    pass\nbutton_1 = Button(root, text=\"1\", padx=40, pady=20,\n                  command=lambda: btnClick(1)).grid(row=3, column=0)\nbutton_2 = Button(root, text=\"2\", padx=40, pady=20,\n                  command=lambda: btnClick(2)).grid(row=3, column=1)\nbutton_3 = Button(root, text=\"3\", padx=40, pady=20,\n                  command=lambda: btnClick(3)).grid(row=3, column=2)",
+        "detail": "5-calculator",
+        "documentation": {}
+    },
+    {
+        "label": "equals",
+        "kind": 2,
+        "importPath": "5-calculator",
+        "description": "5-calculator",
+        "peekOfCode": "def equals():\n    pass\nbutton_1 = Button(root, text=\"1\", padx=40, pady=20,\n                  command=lambda: btnClick(1)).grid(row=3, column=0)\nbutton_2 = Button(root, text=\"2\", padx=40, pady=20,\n                  command=lambda: btnClick(2)).grid(row=3, column=1)\nbutton_3 = Button(root, text=\"3\", padx=40, pady=20,\n                  command=lambda: btnClick(3)).grid(row=3, column=2)\nbutton_4 = Button(root, text=\"4\", padx=40, pady=20,\n                  command=lambda: btnClick(4)).grid(row=2, column=0)",
+        "detail": "5-calculator",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "5-calculator",
+        "description": "5-calculator",
+        "peekOfCode": "root = Tk()\nroot.title('Calculator')\ne = Entry(root, width=50, borderwidth=5)\ne.grid(row=0, column=0, columnspan=3, padx=10, pady=10)\n# e.insert(0, \"Enter a number\")  # Placeholder\ndef clr():\n    e.delete(0, END)\ndef btnClick(num):\n    current = e.get()\n    e.delete(0, END)",
+        "detail": "5-calculator",
+        "documentation": {}
+    },
+    {
+        "label": "e",
+        "kind": 5,
+        "importPath": "5-calculator",
+        "description": "5-calculator",
+        "peekOfCode": "e = Entry(root, width=50, borderwidth=5)\ne.grid(row=0, column=0, columnspan=3, padx=10, pady=10)\n# e.insert(0, \"Enter a number\")  # Placeholder\ndef clr():\n    e.delete(0, END)\ndef btnClick(num):\n    current = e.get()\n    e.delete(0, END)\n    e.insert(0, str(current)+str(num))\ndef add():",
+        "detail": "5-calculator",
+        "documentation": {}
+    },
+    {
+        "label": "button_1",
+        "kind": 5,
+        "importPath": "5-calculator",
+        "description": "5-calculator",
+        "peekOfCode": "button_1 = Button(root, text=\"1\", padx=40, pady=20,\n                  command=lambda: btnClick(1)).grid(row=3, column=0)\nbutton_2 = Button(root, text=\"2\", padx=40, pady=20,\n                  command=lambda: btnClick(2)).grid(row=3, column=1)\nbutton_3 = Button(root, text=\"3\", padx=40, pady=20,\n                  command=lambda: btnClick(3)).grid(row=3, column=2)\nbutton_4 = Button(root, text=\"4\", padx=40, pady=20,\n                  command=lambda: btnClick(4)).grid(row=2, column=0)\nbutton_5 = Button(root, text=\"5\", padx=40, pady=20,\n                  command=lambda: btnClick(5)).grid(row=2, column=1)",
+        "detail": "5-calculator",
+        "documentation": {}
+    },
+    {
+        "label": "button_2",
+        "kind": 5,
+        "importPath": "5-calculator",
+        "description": "5-calculator",
+        "peekOfCode": "button_2 = Button(root, text=\"2\", padx=40, pady=20,\n                  command=lambda: btnClick(2)).grid(row=3, column=1)\nbutton_3 = Button(root, text=\"3\", padx=40, pady=20,\n                  command=lambda: btnClick(3)).grid(row=3, column=2)\nbutton_4 = Button(root, text=\"4\", padx=40, pady=20,\n                  command=lambda: btnClick(4)).grid(row=2, column=0)\nbutton_5 = Button(root, text=\"5\", padx=40, pady=20,\n                  command=lambda: btnClick(5)).grid(row=2, column=1)\nbutton_6 = Button(root, text=\"6\", padx=40, pady=20,\n                  command=lambda: btnClick(6)).grid(row=2, column=2)",
+        "detail": "5-calculator",
+        "documentation": {}
+    },
+    {
+        "label": "button_3",
+        "kind": 5,
+        "importPath": "5-calculator",
+        "description": "5-calculator",
+        "peekOfCode": "button_3 = Button(root, text=\"3\", padx=40, pady=20,\n                  command=lambda: btnClick(3)).grid(row=3, column=2)\nbutton_4 = Button(root, text=\"4\", padx=40, pady=20,\n                  command=lambda: btnClick(4)).grid(row=2, column=0)\nbutton_5 = Button(root, text=\"5\", padx=40, pady=20,\n                  command=lambda: btnClick(5)).grid(row=2, column=1)\nbutton_6 = Button(root, text=\"6\", padx=40, pady=20,\n                  command=lambda: btnClick(6)).grid(row=2, column=2)\nbutton_7 = Button(root, text=\"7\", padx=40, pady=20,\n                  command=lambda: btnClick(7)).grid(row=1, column=0)",
+        "detail": "5-calculator",
+        "documentation": {}
+    },
+    {
+        "label": "button_4",
+        "kind": 5,
+        "importPath": "5-calculator",
+        "description": "5-calculator",
+        "peekOfCode": "button_4 = Button(root, text=\"4\", padx=40, pady=20,\n                  command=lambda: btnClick(4)).grid(row=2, column=0)\nbutton_5 = Button(root, text=\"5\", padx=40, pady=20,\n                  command=lambda: btnClick(5)).grid(row=2, column=1)\nbutton_6 = Button(root, text=\"6\", padx=40, pady=20,\n                  command=lambda: btnClick(6)).grid(row=2, column=2)\nbutton_7 = Button(root, text=\"7\", padx=40, pady=20,\n                  command=lambda: btnClick(7)).grid(row=1, column=0)\nbutton_8 = Button(root, text=\"8\", padx=40, pady=20,\n                  command=lambda: btnClick(8)).grid(row=1, column=1)",
+        "detail": "5-calculator",
+        "documentation": {}
+    },
+    {
+        "label": "button_5",
+        "kind": 5,
+        "importPath": "5-calculator",
+        "description": "5-calculator",
+        "peekOfCode": "button_5 = Button(root, text=\"5\", padx=40, pady=20,\n                  command=lambda: btnClick(5)).grid(row=2, column=1)\nbutton_6 = Button(root, text=\"6\", padx=40, pady=20,\n                  command=lambda: btnClick(6)).grid(row=2, column=2)\nbutton_7 = Button(root, text=\"7\", padx=40, pady=20,\n                  command=lambda: btnClick(7)).grid(row=1, column=0)\nbutton_8 = Button(root, text=\"8\", padx=40, pady=20,\n                  command=lambda: btnClick(8)).grid(row=1, column=1)\nbutton_9 = Button(root, text=\"9\", padx=40, pady=20,\n                  command=lambda: btnClick(9)).grid(row=1, column=2)",
+        "detail": "5-calculator",
+        "documentation": {}
+    },
+    {
+        "label": "button_6",
+        "kind": 5,
+        "importPath": "5-calculator",
+        "description": "5-calculator",
+        "peekOfCode": "button_6 = Button(root, text=\"6\", padx=40, pady=20,\n                  command=lambda: btnClick(6)).grid(row=2, column=2)\nbutton_7 = Button(root, text=\"7\", padx=40, pady=20,\n                  command=lambda: btnClick(7)).grid(row=1, column=0)\nbutton_8 = Button(root, text=\"8\", padx=40, pady=20,\n                  command=lambda: btnClick(8)).grid(row=1, column=1)\nbutton_9 = Button(root, text=\"9\", padx=40, pady=20,\n                  command=lambda: btnClick(9)).grid(row=1, column=2)\nbutton_0 = Button(root, text=\"0\", padx=40, pady=20,\n                  command=lambda: btnClick(0)).grid(row=4, column=0)",
+        "detail": "5-calculator",
+        "documentation": {}
+    },
+    {
+        "label": "button_7",
+        "kind": 5,
+        "importPath": "5-calculator",
+        "description": "5-calculator",
+        "peekOfCode": "button_7 = Button(root, text=\"7\", padx=40, pady=20,\n                  command=lambda: btnClick(7)).grid(row=1, column=0)\nbutton_8 = Button(root, text=\"8\", padx=40, pady=20,\n                  command=lambda: btnClick(8)).grid(row=1, column=1)\nbutton_9 = Button(root, text=\"9\", padx=40, pady=20,\n                  command=lambda: btnClick(9)).grid(row=1, column=2)\nbutton_0 = Button(root, text=\"0\", padx=40, pady=20,\n                  command=lambda: btnClick(0)).grid(row=4, column=0)\naddButton = Button(root, text=\"+\", padx=40, pady=20,\n                   command=add).grid(row=4, column=1)",
+        "detail": "5-calculator",
+        "documentation": {}
+    },
+    {
+        "label": "button_8",
+        "kind": 5,
+        "importPath": "5-calculator",
+        "description": "5-calculator",
+        "peekOfCode": "button_8 = Button(root, text=\"8\", padx=40, pady=20,\n                  command=lambda: btnClick(8)).grid(row=1, column=1)\nbutton_9 = Button(root, text=\"9\", padx=40, pady=20,\n                  command=lambda: btnClick(9)).grid(row=1, column=2)\nbutton_0 = Button(root, text=\"0\", padx=40, pady=20,\n                  command=lambda: btnClick(0)).grid(row=4, column=0)\naddButton = Button(root, text=\"+\", padx=40, pady=20,\n                   command=add).grid(row=4, column=1)\nsubtractButton = Button(root, text=\"-\", padx=40, pady=20,\n                        command=subtract).grid(row=4, column=2)",
+        "detail": "5-calculator",
+        "documentation": {}
+    },
+    {
+        "label": "button_9",
+        "kind": 5,
+        "importPath": "5-calculator",
+        "description": "5-calculator",
+        "peekOfCode": "button_9 = Button(root, text=\"9\", padx=40, pady=20,\n                  command=lambda: btnClick(9)).grid(row=1, column=2)\nbutton_0 = Button(root, text=\"0\", padx=40, pady=20,\n                  command=lambda: btnClick(0)).grid(row=4, column=0)\naddButton = Button(root, text=\"+\", padx=40, pady=20,\n                   command=add).grid(row=4, column=1)\nsubtractButton = Button(root, text=\"-\", padx=40, pady=20,\n                        command=subtract).grid(row=4, column=2)\nmultiplyButton = Button(root, text=\"*\", padx=40, pady=20,\n                        command=multiply).grid(row=5, column=1)",
+        "detail": "5-calculator",
+        "documentation": {}
+    },
+    {
+        "label": "button_0",
+        "kind": 5,
+        "importPath": "5-calculator",
+        "description": "5-calculator",
+        "peekOfCode": "button_0 = Button(root, text=\"0\", padx=40, pady=20,\n                  command=lambda: btnClick(0)).grid(row=4, column=0)\naddButton = Button(root, text=\"+\", padx=40, pady=20,\n                   command=add).grid(row=4, column=1)\nsubtractButton = Button(root, text=\"-\", padx=40, pady=20,\n                        command=subtract).grid(row=4, column=2)\nmultiplyButton = Button(root, text=\"*\", padx=40, pady=20,\n                        command=multiply).grid(row=5, column=1)\ndivideButton = Button(root, text=\"/\", padx=40, pady=20,\n                      command=divide).grid(row=5, column=2)",
+        "detail": "5-calculator",
+        "documentation": {}
+    },
+    {
+        "label": "addButton",
+        "kind": 5,
+        "importPath": "5-calculator",
+        "description": "5-calculator",
+        "peekOfCode": "addButton = Button(root, text=\"+\", padx=40, pady=20,\n                   command=add).grid(row=4, column=1)\nsubtractButton = Button(root, text=\"-\", padx=40, pady=20,\n                        command=subtract).grid(row=4, column=2)\nmultiplyButton = Button(root, text=\"*\", padx=40, pady=20,\n                        command=multiply).grid(row=5, column=1)\ndivideButton = Button(root, text=\"/\", padx=40, pady=20,\n                      command=divide).grid(row=5, column=2)\nclrButton = Button(root, text=\"clr\", padx=39, pady=20,\n                   command=clr).grid(row=5, column=0)",
+        "detail": "5-calculator",
+        "documentation": {}
+    },
+    {
+        "label": "subtractButton",
+        "kind": 5,
+        "importPath": "5-calculator",
+        "description": "5-calculator",
+        "peekOfCode": "subtractButton = Button(root, text=\"-\", padx=40, pady=20,\n                        command=subtract).grid(row=4, column=2)\nmultiplyButton = Button(root, text=\"*\", padx=40, pady=20,\n                        command=multiply).grid(row=5, column=1)\ndivideButton = Button(root, text=\"/\", padx=40, pady=20,\n                      command=divide).grid(row=5, column=2)\nclrButton = Button(root, text=\"clr\", padx=39, pady=20,\n                   command=clr).grid(row=5, column=0)\nequalsButton = Button(root, text=\"=\", padx=40,\n                      pady=20, command=equals).grid(row=6, column=1)",
+        "detail": "5-calculator",
+        "documentation": {}
+    },
+    {
+        "label": "multiplyButton",
+        "kind": 5,
+        "importPath": "5-calculator",
+        "description": "5-calculator",
+        "peekOfCode": "multiplyButton = Button(root, text=\"*\", padx=40, pady=20,\n                        command=multiply).grid(row=5, column=1)\ndivideButton = Button(root, text=\"/\", padx=40, pady=20,\n                      command=divide).grid(row=5, column=2)\nclrButton = Button(root, text=\"clr\", padx=39, pady=20,\n                   command=clr).grid(row=5, column=0)\nequalsButton = Button(root, text=\"=\", padx=40,\n                      pady=20, command=equals).grid(row=6, column=1)\nroot.mainloop()",
+        "detail": "5-calculator",
+        "documentation": {}
+    },
+    {
+        "label": "divideButton",
+        "kind": 5,
+        "importPath": "5-calculator",
+        "description": "5-calculator",
+        "peekOfCode": "divideButton = Button(root, text=\"/\", padx=40, pady=20,\n                      command=divide).grid(row=5, column=2)\nclrButton = Button(root, text=\"clr\", padx=39, pady=20,\n                   command=clr).grid(row=5, column=0)\nequalsButton = Button(root, text=\"=\", padx=40,\n                      pady=20, command=equals).grid(row=6, column=1)\nroot.mainloop()",
+        "detail": "5-calculator",
+        "documentation": {}
+    },
+    {
+        "label": "clrButton",
+        "kind": 5,
+        "importPath": "5-calculator",
+        "description": "5-calculator",
+        "peekOfCode": "clrButton = Button(root, text=\"clr\", padx=39, pady=20,\n                   command=clr).grid(row=5, column=0)\nequalsButton = Button(root, text=\"=\", padx=40,\n                      pady=20, command=equals).grid(row=6, column=1)\nroot.mainloop()",
+        "detail": "5-calculator",
+        "documentation": {}
+    },
+    {
+        "label": "equalsButton",
+        "kind": 5,
+        "importPath": "5-calculator",
+        "description": "5-calculator",
+        "peekOfCode": "equalsButton = Button(root, text=\"=\", padx=40,\n                      pady=20, command=equals).grid(row=6, column=1)\nroot.mainloop()",
+        "detail": "5-calculator",
+        "documentation": {}
+    }
+]
