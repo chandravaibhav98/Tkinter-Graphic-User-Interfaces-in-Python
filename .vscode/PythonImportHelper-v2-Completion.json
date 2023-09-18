@@ -56,14 +56,6 @@
         "documentation": {}
     },
     {
-        "label": "disable",
-        "importPath": "gc",
-        "description": "gc",
-        "isExtraImport": true,
-        "detail": "gc",
-        "documentation": {}
-    },
-    {
         "label": "root",
         "kind": 5,
         "importPath": "1-pack",
@@ -190,65 +182,65 @@
         "documentation": {}
     },
     {
-        "label": "clr",
+        "label": "button_click",
         "kind": 2,
         "importPath": "5-calculator",
         "description": "5-calculator",
-        "peekOfCode": "def clr():\n    e.delete(0, END)\ndef btnClick(num):\n    current = e.get()\n    e.delete(0, END)\n    e.insert(0, str(current)+str(num))\ndef add():\n    firstnum = e.get()\ndef subtract():\n    pass",
+        "peekOfCode": "def button_click(number):\n    # e.delete(0, END)\n    current = e.get()\n    e.delete(0, END)\n    e.insert(0, str(current) + str(number))\ndef button_clear():\n    e.delete(0, END)\ndef button_add():\n    first_number = e.get()\n    global f_num",
         "detail": "5-calculator",
         "documentation": {}
     },
     {
-        "label": "btnClick",
+        "label": "button_clear",
         "kind": 2,
         "importPath": "5-calculator",
         "description": "5-calculator",
-        "peekOfCode": "def btnClick(num):\n    current = e.get()\n    e.delete(0, END)\n    e.insert(0, str(current)+str(num))\ndef add():\n    firstnum = e.get()\ndef subtract():\n    pass\ndef multiply():\n    pass",
+        "peekOfCode": "def button_clear():\n    e.delete(0, END)\ndef button_add():\n    first_number = e.get()\n    global f_num\n    global math\n    math = \"addition\"\n    f_num = int(first_number)\n    e.delete(0, END)\ndef button_equal():",
         "detail": "5-calculator",
         "documentation": {}
     },
     {
-        "label": "add",
+        "label": "button_add",
         "kind": 2,
         "importPath": "5-calculator",
         "description": "5-calculator",
-        "peekOfCode": "def add():\n    firstnum = e.get()\ndef subtract():\n    pass\ndef multiply():\n    pass\ndef divide():\n    pass\ndef equals():\n    pass",
+        "peekOfCode": "def button_add():\n    first_number = e.get()\n    global f_num\n    global math\n    math = \"addition\"\n    f_num = int(first_number)\n    e.delete(0, END)\ndef button_equal():\n    second_number = e.get()\n    e.delete(0, END)",
         "detail": "5-calculator",
         "documentation": {}
     },
     {
-        "label": "subtract",
+        "label": "button_equal",
         "kind": 2,
         "importPath": "5-calculator",
         "description": "5-calculator",
-        "peekOfCode": "def subtract():\n    pass\ndef multiply():\n    pass\ndef divide():\n    pass\ndef equals():\n    pass\nbutton_1 = Button(root, text=\"1\", padx=40, pady=20,\n                  command=lambda: btnClick(1)).grid(row=3, column=0)",
+        "peekOfCode": "def button_equal():\n    second_number = e.get()\n    e.delete(0, END)\n    if math == \"addition\":\n        e.insert(0, f_num + int(second_number))\n    if math == \"subtraction\":\n        e.insert(0, f_num - int(second_number))\n    if math == \"multiplication\":\n        e.insert(0, f_num * int(second_number))\n    if math == \"division\":",
         "detail": "5-calculator",
         "documentation": {}
     },
     {
-        "label": "multiply",
+        "label": "button_subtract",
         "kind": 2,
         "importPath": "5-calculator",
         "description": "5-calculator",
-        "peekOfCode": "def multiply():\n    pass\ndef divide():\n    pass\ndef equals():\n    pass\nbutton_1 = Button(root, text=\"1\", padx=40, pady=20,\n                  command=lambda: btnClick(1)).grid(row=3, column=0)\nbutton_2 = Button(root, text=\"2\", padx=40, pady=20,\n                  command=lambda: btnClick(2)).grid(row=3, column=1)",
+        "peekOfCode": "def button_subtract():\n    first_number = e.get()\n    global f_num\n    global math\n    math = \"subtraction\"\n    f_num = int(first_number)\n    e.delete(0, END)\ndef button_multiply():\n    first_number = e.get()\n    global f_num",
         "detail": "5-calculator",
         "documentation": {}
     },
     {
-        "label": "divide",
+        "label": "button_multiply",
         "kind": 2,
         "importPath": "5-calculator",
         "description": "5-calculator",
-        "peekOfCode": "def divide():\n    pass\ndef equals():\n    pass\nbutton_1 = Button(root, text=\"1\", padx=40, pady=20,\n                  command=lambda: btnClick(1)).grid(row=3, column=0)\nbutton_2 = Button(root, text=\"2\", padx=40, pady=20,\n                  command=lambda: btnClick(2)).grid(row=3, column=1)\nbutton_3 = Button(root, text=\"3\", padx=40, pady=20,\n                  command=lambda: btnClick(3)).grid(row=3, column=2)",
+        "peekOfCode": "def button_multiply():\n    first_number = e.get()\n    global f_num\n    global math\n    math = \"multiplication\"\n    f_num = int(first_number)\n    e.delete(0, END)\ndef button_divide():\n    first_number = e.get()\n    global f_num",
         "detail": "5-calculator",
         "documentation": {}
     },
     {
-        "label": "equals",
+        "label": "button_divide",
         "kind": 2,
         "importPath": "5-calculator",
         "description": "5-calculator",
-        "peekOfCode": "def equals():\n    pass\nbutton_1 = Button(root, text=\"1\", padx=40, pady=20,\n                  command=lambda: btnClick(1)).grid(row=3, column=0)\nbutton_2 = Button(root, text=\"2\", padx=40, pady=20,\n                  command=lambda: btnClick(2)).grid(row=3, column=1)\nbutton_3 = Button(root, text=\"3\", padx=40, pady=20,\n                  command=lambda: btnClick(3)).grid(row=3, column=2)\nbutton_4 = Button(root, text=\"4\", padx=40, pady=20,\n                  command=lambda: btnClick(4)).grid(row=2, column=0)",
+        "peekOfCode": "def button_divide():\n    first_number = e.get()\n    global f_num\n    global math\n    math = \"division\"\n    f_num = int(first_number)\n    e.delete(0, END)\n# Define Buttons\nbutton_1 = Button(root, text=\"1\", padx=40, pady=20,\n                  command=lambda: button_click(1))",
         "detail": "5-calculator",
         "documentation": {}
     },
@@ -257,7 +249,7 @@
         "kind": 5,
         "importPath": "5-calculator",
         "description": "5-calculator",
-        "peekOfCode": "root = Tk()\nroot.title('Calculator')\ne = Entry(root, width=50, borderwidth=5)\ne.grid(row=0, column=0, columnspan=3, padx=10, pady=10)\n# e.insert(0, \"Enter a number\")  # Placeholder\ndef clr():\n    e.delete(0, END)\ndef btnClick(num):\n    current = e.get()\n    e.delete(0, END)",
+        "peekOfCode": "root = Tk()\nroot.title(\"Calculator\")\ne = Entry(root, width=35, borderwidth=5)\ne.grid(row=0, column=0, columnspan=3, padx=10, pady=10)\n# e.insert(0, \"\")\ndef button_click(number):\n    # e.delete(0, END)\n    current = e.get()\n    e.delete(0, END)\n    e.insert(0, str(current) + str(number))",
         "detail": "5-calculator",
         "documentation": {}
     },
@@ -266,7 +258,7 @@
         "kind": 5,
         "importPath": "5-calculator",
         "description": "5-calculator",
-        "peekOfCode": "e = Entry(root, width=50, borderwidth=5)\ne.grid(row=0, column=0, columnspan=3, padx=10, pady=10)\n# e.insert(0, \"Enter a number\")  # Placeholder\ndef clr():\n    e.delete(0, END)\ndef btnClick(num):\n    current = e.get()\n    e.delete(0, END)\n    e.insert(0, str(current)+str(num))\ndef add():",
+        "peekOfCode": "e = Entry(root, width=35, borderwidth=5)\ne.grid(row=0, column=0, columnspan=3, padx=10, pady=10)\n# e.insert(0, \"\")\ndef button_click(number):\n    # e.delete(0, END)\n    current = e.get()\n    e.delete(0, END)\n    e.insert(0, str(current) + str(number))\ndef button_clear():\n    e.delete(0, END)",
         "detail": "5-calculator",
         "documentation": {}
     },
@@ -275,7 +267,7 @@
         "kind": 5,
         "importPath": "5-calculator",
         "description": "5-calculator",
-        "peekOfCode": "button_1 = Button(root, text=\"1\", padx=40, pady=20,\n                  command=lambda: btnClick(1)).grid(row=3, column=0)\nbutton_2 = Button(root, text=\"2\", padx=40, pady=20,\n                  command=lambda: btnClick(2)).grid(row=3, column=1)\nbutton_3 = Button(root, text=\"3\", padx=40, pady=20,\n                  command=lambda: btnClick(3)).grid(row=3, column=2)\nbutton_4 = Button(root, text=\"4\", padx=40, pady=20,\n                  command=lambda: btnClick(4)).grid(row=2, column=0)\nbutton_5 = Button(root, text=\"5\", padx=40, pady=20,\n                  command=lambda: btnClick(5)).grid(row=2, column=1)",
+        "peekOfCode": "button_1 = Button(root, text=\"1\", padx=40, pady=20,\n                  command=lambda: button_click(1))\nbutton_2 = Button(root, text=\"2\", padx=40, pady=20,\n                  command=lambda: button_click(2))\nbutton_3 = Button(root, text=\"3\", padx=40, pady=20,\n                  command=lambda: button_click(3))\nbutton_4 = Button(root, text=\"4\", padx=40, pady=20,\n                  command=lambda: button_click(4))\nbutton_5 = Button(root, text=\"5\", padx=40, pady=20,\n                  command=lambda: button_click(5))",
         "detail": "5-calculator",
         "documentation": {}
     },
@@ -284,7 +276,7 @@
         "kind": 5,
         "importPath": "5-calculator",
         "description": "5-calculator",
-        "peekOfCode": "button_2 = Button(root, text=\"2\", padx=40, pady=20,\n                  command=lambda: btnClick(2)).grid(row=3, column=1)\nbutton_3 = Button(root, text=\"3\", padx=40, pady=20,\n                  command=lambda: btnClick(3)).grid(row=3, column=2)\nbutton_4 = Button(root, text=\"4\", padx=40, pady=20,\n                  command=lambda: btnClick(4)).grid(row=2, column=0)\nbutton_5 = Button(root, text=\"5\", padx=40, pady=20,\n                  command=lambda: btnClick(5)).grid(row=2, column=1)\nbutton_6 = Button(root, text=\"6\", padx=40, pady=20,\n                  command=lambda: btnClick(6)).grid(row=2, column=2)",
+        "peekOfCode": "button_2 = Button(root, text=\"2\", padx=40, pady=20,\n                  command=lambda: button_click(2))\nbutton_3 = Button(root, text=\"3\", padx=40, pady=20,\n                  command=lambda: button_click(3))\nbutton_4 = Button(root, text=\"4\", padx=40, pady=20,\n                  command=lambda: button_click(4))\nbutton_5 = Button(root, text=\"5\", padx=40, pady=20,\n                  command=lambda: button_click(5))\nbutton_6 = Button(root, text=\"6\", padx=40, pady=20,\n                  command=lambda: button_click(6))",
         "detail": "5-calculator",
         "documentation": {}
     },
@@ -293,7 +285,7 @@
         "kind": 5,
         "importPath": "5-calculator",
         "description": "5-calculator",
-        "peekOfCode": "button_3 = Button(root, text=\"3\", padx=40, pady=20,\n                  command=lambda: btnClick(3)).grid(row=3, column=2)\nbutton_4 = Button(root, text=\"4\", padx=40, pady=20,\n                  command=lambda: btnClick(4)).grid(row=2, column=0)\nbutton_5 = Button(root, text=\"5\", padx=40, pady=20,\n                  command=lambda: btnClick(5)).grid(row=2, column=1)\nbutton_6 = Button(root, text=\"6\", padx=40, pady=20,\n                  command=lambda: btnClick(6)).grid(row=2, column=2)\nbutton_7 = Button(root, text=\"7\", padx=40, pady=20,\n                  command=lambda: btnClick(7)).grid(row=1, column=0)",
+        "peekOfCode": "button_3 = Button(root, text=\"3\", padx=40, pady=20,\n                  command=lambda: button_click(3))\nbutton_4 = Button(root, text=\"4\", padx=40, pady=20,\n                  command=lambda: button_click(4))\nbutton_5 = Button(root, text=\"5\", padx=40, pady=20,\n                  command=lambda: button_click(5))\nbutton_6 = Button(root, text=\"6\", padx=40, pady=20,\n                  command=lambda: button_click(6))\nbutton_7 = Button(root, text=\"7\", padx=40, pady=20,\n                  command=lambda: button_click(7))",
         "detail": "5-calculator",
         "documentation": {}
     },
@@ -302,7 +294,7 @@
         "kind": 5,
         "importPath": "5-calculator",
         "description": "5-calculator",
-        "peekOfCode": "button_4 = Button(root, text=\"4\", padx=40, pady=20,\n                  command=lambda: btnClick(4)).grid(row=2, column=0)\nbutton_5 = Button(root, text=\"5\", padx=40, pady=20,\n                  command=lambda: btnClick(5)).grid(row=2, column=1)\nbutton_6 = Button(root, text=\"6\", padx=40, pady=20,\n                  command=lambda: btnClick(6)).grid(row=2, column=2)\nbutton_7 = Button(root, text=\"7\", padx=40, pady=20,\n                  command=lambda: btnClick(7)).grid(row=1, column=0)\nbutton_8 = Button(root, text=\"8\", padx=40, pady=20,\n                  command=lambda: btnClick(8)).grid(row=1, column=1)",
+        "peekOfCode": "button_4 = Button(root, text=\"4\", padx=40, pady=20,\n                  command=lambda: button_click(4))\nbutton_5 = Button(root, text=\"5\", padx=40, pady=20,\n                  command=lambda: button_click(5))\nbutton_6 = Button(root, text=\"6\", padx=40, pady=20,\n                  command=lambda: button_click(6))\nbutton_7 = Button(root, text=\"7\", padx=40, pady=20,\n                  command=lambda: button_click(7))\nbutton_8 = Button(root, text=\"8\", padx=40, pady=20,\n                  command=lambda: button_click(8))",
         "detail": "5-calculator",
         "documentation": {}
     },
@@ -311,7 +303,7 @@
         "kind": 5,
         "importPath": "5-calculator",
         "description": "5-calculator",
-        "peekOfCode": "button_5 = Button(root, text=\"5\", padx=40, pady=20,\n                  command=lambda: btnClick(5)).grid(row=2, column=1)\nbutton_6 = Button(root, text=\"6\", padx=40, pady=20,\n                  command=lambda: btnClick(6)).grid(row=2, column=2)\nbutton_7 = Button(root, text=\"7\", padx=40, pady=20,\n                  command=lambda: btnClick(7)).grid(row=1, column=0)\nbutton_8 = Button(root, text=\"8\", padx=40, pady=20,\n                  command=lambda: btnClick(8)).grid(row=1, column=1)\nbutton_9 = Button(root, text=\"9\", padx=40, pady=20,\n                  command=lambda: btnClick(9)).grid(row=1, column=2)",
+        "peekOfCode": "button_5 = Button(root, text=\"5\", padx=40, pady=20,\n                  command=lambda: button_click(5))\nbutton_6 = Button(root, text=\"6\", padx=40, pady=20,\n                  command=lambda: button_click(6))\nbutton_7 = Button(root, text=\"7\", padx=40, pady=20,\n                  command=lambda: button_click(7))\nbutton_8 = Button(root, text=\"8\", padx=40, pady=20,\n                  command=lambda: button_click(8))\nbutton_9 = Button(root, text=\"9\", padx=40, pady=20,\n                  command=lambda: button_click(9))",
         "detail": "5-calculator",
         "documentation": {}
     },
@@ -320,7 +312,7 @@
         "kind": 5,
         "importPath": "5-calculator",
         "description": "5-calculator",
-        "peekOfCode": "button_6 = Button(root, text=\"6\", padx=40, pady=20,\n                  command=lambda: btnClick(6)).grid(row=2, column=2)\nbutton_7 = Button(root, text=\"7\", padx=40, pady=20,\n                  command=lambda: btnClick(7)).grid(row=1, column=0)\nbutton_8 = Button(root, text=\"8\", padx=40, pady=20,\n                  command=lambda: btnClick(8)).grid(row=1, column=1)\nbutton_9 = Button(root, text=\"9\", padx=40, pady=20,\n                  command=lambda: btnClick(9)).grid(row=1, column=2)\nbutton_0 = Button(root, text=\"0\", padx=40, pady=20,\n                  command=lambda: btnClick(0)).grid(row=4, column=0)",
+        "peekOfCode": "button_6 = Button(root, text=\"6\", padx=40, pady=20,\n                  command=lambda: button_click(6))\nbutton_7 = Button(root, text=\"7\", padx=40, pady=20,\n                  command=lambda: button_click(7))\nbutton_8 = Button(root, text=\"8\", padx=40, pady=20,\n                  command=lambda: button_click(8))\nbutton_9 = Button(root, text=\"9\", padx=40, pady=20,\n                  command=lambda: button_click(9))\nbutton_0 = Button(root, text=\"0\", padx=40, pady=20,\n                  command=lambda: button_click(0))",
         "detail": "5-calculator",
         "documentation": {}
     },
@@ -329,7 +321,7 @@
         "kind": 5,
         "importPath": "5-calculator",
         "description": "5-calculator",
-        "peekOfCode": "button_7 = Button(root, text=\"7\", padx=40, pady=20,\n                  command=lambda: btnClick(7)).grid(row=1, column=0)\nbutton_8 = Button(root, text=\"8\", padx=40, pady=20,\n                  command=lambda: btnClick(8)).grid(row=1, column=1)\nbutton_9 = Button(root, text=\"9\", padx=40, pady=20,\n                  command=lambda: btnClick(9)).grid(row=1, column=2)\nbutton_0 = Button(root, text=\"0\", padx=40, pady=20,\n                  command=lambda: btnClick(0)).grid(row=4, column=0)\naddButton = Button(root, text=\"+\", padx=40, pady=20,\n                   command=add).grid(row=4, column=1)",
+        "peekOfCode": "button_7 = Button(root, text=\"7\", padx=40, pady=20,\n                  command=lambda: button_click(7))\nbutton_8 = Button(root, text=\"8\", padx=40, pady=20,\n                  command=lambda: button_click(8))\nbutton_9 = Button(root, text=\"9\", padx=40, pady=20,\n                  command=lambda: button_click(9))\nbutton_0 = Button(root, text=\"0\", padx=40, pady=20,\n                  command=lambda: button_click(0))\nbutton_add = Button(root, text=\"+\", padx=39, pady=20, command=button_add)\nbutton_equal = Button(root, text=\"=\", padx=91, pady=20, command=button_equal)",
         "detail": "5-calculator",
         "documentation": {}
     },
@@ -338,7 +330,7 @@
         "kind": 5,
         "importPath": "5-calculator",
         "description": "5-calculator",
-        "peekOfCode": "button_8 = Button(root, text=\"8\", padx=40, pady=20,\n                  command=lambda: btnClick(8)).grid(row=1, column=1)\nbutton_9 = Button(root, text=\"9\", padx=40, pady=20,\n                  command=lambda: btnClick(9)).grid(row=1, column=2)\nbutton_0 = Button(root, text=\"0\", padx=40, pady=20,\n                  command=lambda: btnClick(0)).grid(row=4, column=0)\naddButton = Button(root, text=\"+\", padx=40, pady=20,\n                   command=add).grid(row=4, column=1)\nsubtractButton = Button(root, text=\"-\", padx=40, pady=20,\n                        command=subtract).grid(row=4, column=2)",
+        "peekOfCode": "button_8 = Button(root, text=\"8\", padx=40, pady=20,\n                  command=lambda: button_click(8))\nbutton_9 = Button(root, text=\"9\", padx=40, pady=20,\n                  command=lambda: button_click(9))\nbutton_0 = Button(root, text=\"0\", padx=40, pady=20,\n                  command=lambda: button_click(0))\nbutton_add = Button(root, text=\"+\", padx=39, pady=20, command=button_add)\nbutton_equal = Button(root, text=\"=\", padx=91, pady=20, command=button_equal)\nbutton_clear = Button(root, text=\"Clear\", padx=79,\n                      pady=20, command=button_clear)",
         "detail": "5-calculator",
         "documentation": {}
     },
@@ -347,7 +339,7 @@
         "kind": 5,
         "importPath": "5-calculator",
         "description": "5-calculator",
-        "peekOfCode": "button_9 = Button(root, text=\"9\", padx=40, pady=20,\n                  command=lambda: btnClick(9)).grid(row=1, column=2)\nbutton_0 = Button(root, text=\"0\", padx=40, pady=20,\n                  command=lambda: btnClick(0)).grid(row=4, column=0)\naddButton = Button(root, text=\"+\", padx=40, pady=20,\n                   command=add).grid(row=4, column=1)\nsubtractButton = Button(root, text=\"-\", padx=40, pady=20,\n                        command=subtract).grid(row=4, column=2)\nmultiplyButton = Button(root, text=\"*\", padx=40, pady=20,\n                        command=multiply).grid(row=5, column=1)",
+        "peekOfCode": "button_9 = Button(root, text=\"9\", padx=40, pady=20,\n                  command=lambda: button_click(9))\nbutton_0 = Button(root, text=\"0\", padx=40, pady=20,\n                  command=lambda: button_click(0))\nbutton_add = Button(root, text=\"+\", padx=39, pady=20, command=button_add)\nbutton_equal = Button(root, text=\"=\", padx=91, pady=20, command=button_equal)\nbutton_clear = Button(root, text=\"Clear\", padx=79,\n                      pady=20, command=button_clear)\nbutton_subtract = Button(root, text=\"-\", padx=41,\n                         pady=20, command=button_subtract)",
         "detail": "5-calculator",
         "documentation": {}
     },
@@ -356,61 +348,61 @@
         "kind": 5,
         "importPath": "5-calculator",
         "description": "5-calculator",
-        "peekOfCode": "button_0 = Button(root, text=\"0\", padx=40, pady=20,\n                  command=lambda: btnClick(0)).grid(row=4, column=0)\naddButton = Button(root, text=\"+\", padx=40, pady=20,\n                   command=add).grid(row=4, column=1)\nsubtractButton = Button(root, text=\"-\", padx=40, pady=20,\n                        command=subtract).grid(row=4, column=2)\nmultiplyButton = Button(root, text=\"*\", padx=40, pady=20,\n                        command=multiply).grid(row=5, column=1)\ndivideButton = Button(root, text=\"/\", padx=40, pady=20,\n                      command=divide).grid(row=5, column=2)",
+        "peekOfCode": "button_0 = Button(root, text=\"0\", padx=40, pady=20,\n                  command=lambda: button_click(0))\nbutton_add = Button(root, text=\"+\", padx=39, pady=20, command=button_add)\nbutton_equal = Button(root, text=\"=\", padx=91, pady=20, command=button_equal)\nbutton_clear = Button(root, text=\"Clear\", padx=79,\n                      pady=20, command=button_clear)\nbutton_subtract = Button(root, text=\"-\", padx=41,\n                         pady=20, command=button_subtract)\nbutton_multiply = Button(root, text=\"*\", padx=40,\n                         pady=20, command=button_multiply)",
         "detail": "5-calculator",
         "documentation": {}
     },
     {
-        "label": "addButton",
+        "label": "button_add",
         "kind": 5,
         "importPath": "5-calculator",
         "description": "5-calculator",
-        "peekOfCode": "addButton = Button(root, text=\"+\", padx=40, pady=20,\n                   command=add).grid(row=4, column=1)\nsubtractButton = Button(root, text=\"-\", padx=40, pady=20,\n                        command=subtract).grid(row=4, column=2)\nmultiplyButton = Button(root, text=\"*\", padx=40, pady=20,\n                        command=multiply).grid(row=5, column=1)\ndivideButton = Button(root, text=\"/\", padx=40, pady=20,\n                      command=divide).grid(row=5, column=2)\nclrButton = Button(root, text=\"clr\", padx=39, pady=20,\n                   command=clr).grid(row=5, column=0)",
+        "peekOfCode": "button_add = Button(root, text=\"+\", padx=39, pady=20, command=button_add)\nbutton_equal = Button(root, text=\"=\", padx=91, pady=20, command=button_equal)\nbutton_clear = Button(root, text=\"Clear\", padx=79,\n                      pady=20, command=button_clear)\nbutton_subtract = Button(root, text=\"-\", padx=41,\n                         pady=20, command=button_subtract)\nbutton_multiply = Button(root, text=\"*\", padx=40,\n                         pady=20, command=button_multiply)\nbutton_divide = Button(root, text=\"/\", padx=41, pady=20, command=button_divide)\n# Put the buttons on the screen",
         "detail": "5-calculator",
         "documentation": {}
     },
     {
-        "label": "subtractButton",
+        "label": "button_equal",
         "kind": 5,
         "importPath": "5-calculator",
         "description": "5-calculator",
-        "peekOfCode": "subtractButton = Button(root, text=\"-\", padx=40, pady=20,\n                        command=subtract).grid(row=4, column=2)\nmultiplyButton = Button(root, text=\"*\", padx=40, pady=20,\n                        command=multiply).grid(row=5, column=1)\ndivideButton = Button(root, text=\"/\", padx=40, pady=20,\n                      command=divide).grid(row=5, column=2)\nclrButton = Button(root, text=\"clr\", padx=39, pady=20,\n                   command=clr).grid(row=5, column=0)\nequalsButton = Button(root, text=\"=\", padx=40,\n                      pady=20, command=equals).grid(row=6, column=1)",
+        "peekOfCode": "button_equal = Button(root, text=\"=\", padx=91, pady=20, command=button_equal)\nbutton_clear = Button(root, text=\"Clear\", padx=79,\n                      pady=20, command=button_clear)\nbutton_subtract = Button(root, text=\"-\", padx=41,\n                         pady=20, command=button_subtract)\nbutton_multiply = Button(root, text=\"*\", padx=40,\n                         pady=20, command=button_multiply)\nbutton_divide = Button(root, text=\"/\", padx=41, pady=20, command=button_divide)\n# Put the buttons on the screen\nbutton_1.grid(row=3, column=0)",
         "detail": "5-calculator",
         "documentation": {}
     },
     {
-        "label": "multiplyButton",
+        "label": "button_clear",
         "kind": 5,
         "importPath": "5-calculator",
         "description": "5-calculator",
-        "peekOfCode": "multiplyButton = Button(root, text=\"*\", padx=40, pady=20,\n                        command=multiply).grid(row=5, column=1)\ndivideButton = Button(root, text=\"/\", padx=40, pady=20,\n                      command=divide).grid(row=5, column=2)\nclrButton = Button(root, text=\"clr\", padx=39, pady=20,\n                   command=clr).grid(row=5, column=0)\nequalsButton = Button(root, text=\"=\", padx=40,\n                      pady=20, command=equals).grid(row=6, column=1)\nroot.mainloop()",
+        "peekOfCode": "button_clear = Button(root, text=\"Clear\", padx=79,\n                      pady=20, command=button_clear)\nbutton_subtract = Button(root, text=\"-\", padx=41,\n                         pady=20, command=button_subtract)\nbutton_multiply = Button(root, text=\"*\", padx=40,\n                         pady=20, command=button_multiply)\nbutton_divide = Button(root, text=\"/\", padx=41, pady=20, command=button_divide)\n# Put the buttons on the screen\nbutton_1.grid(row=3, column=0)\nbutton_2.grid(row=3, column=1)",
         "detail": "5-calculator",
         "documentation": {}
     },
     {
-        "label": "divideButton",
+        "label": "button_subtract",
         "kind": 5,
         "importPath": "5-calculator",
         "description": "5-calculator",
-        "peekOfCode": "divideButton = Button(root, text=\"/\", padx=40, pady=20,\n                      command=divide).grid(row=5, column=2)\nclrButton = Button(root, text=\"clr\", padx=39, pady=20,\n                   command=clr).grid(row=5, column=0)\nequalsButton = Button(root, text=\"=\", padx=40,\n                      pady=20, command=equals).grid(row=6, column=1)\nroot.mainloop()",
+        "peekOfCode": "button_subtract = Button(root, text=\"-\", padx=41,\n                         pady=20, command=button_subtract)\nbutton_multiply = Button(root, text=\"*\", padx=40,\n                         pady=20, command=button_multiply)\nbutton_divide = Button(root, text=\"/\", padx=41, pady=20, command=button_divide)\n# Put the buttons on the screen\nbutton_1.grid(row=3, column=0)\nbutton_2.grid(row=3, column=1)\nbutton_3.grid(row=3, column=2)\nbutton_4.grid(row=2, column=0)",
         "detail": "5-calculator",
         "documentation": {}
     },
     {
-        "label": "clrButton",
+        "label": "button_multiply",
         "kind": 5,
         "importPath": "5-calculator",
         "description": "5-calculator",
-        "peekOfCode": "clrButton = Button(root, text=\"clr\", padx=39, pady=20,\n                   command=clr).grid(row=5, column=0)\nequalsButton = Button(root, text=\"=\", padx=40,\n                      pady=20, command=equals).grid(row=6, column=1)\nroot.mainloop()",
+        "peekOfCode": "button_multiply = Button(root, text=\"*\", padx=40,\n                         pady=20, command=button_multiply)\nbutton_divide = Button(root, text=\"/\", padx=41, pady=20, command=button_divide)\n# Put the buttons on the screen\nbutton_1.grid(row=3, column=0)\nbutton_2.grid(row=3, column=1)\nbutton_3.grid(row=3, column=2)\nbutton_4.grid(row=2, column=0)\nbutton_5.grid(row=2, column=1)\nbutton_6.grid(row=2, column=2)",
         "detail": "5-calculator",
         "documentation": {}
     },
     {
-        "label": "equalsButton",
+        "label": "button_divide",
         "kind": 5,
         "importPath": "5-calculator",
         "description": "5-calculator",
-        "peekOfCode": "equalsButton = Button(root, text=\"=\", padx=40,\n                      pady=20, command=equals).grid(row=6, column=1)\nroot.mainloop()",
+        "peekOfCode": "button_divide = Button(root, text=\"/\", padx=41, pady=20, command=button_divide)\n# Put the buttons on the screen\nbutton_1.grid(row=3, column=0)\nbutton_2.grid(row=3, column=1)\nbutton_3.grid(row=3, column=2)\nbutton_4.grid(row=2, column=0)\nbutton_5.grid(row=2, column=1)\nbutton_6.grid(row=2, column=2)\nbutton_7.grid(row=1, column=0)\nbutton_8.grid(row=1, column=1)",
         "detail": "5-calculator",
         "documentation": {}
     }
