@@ -105,8 +105,8 @@ button_multiply = Button(root, text="*", padx=40,
                          pady=20, command=button_multiply)
 button_divide = Button(root, text="/", padx=41, pady=20, command=button_divide)
 
-# Put the buttons on the screen
 
+# Put the buttons on the screen
 button_1.grid(row=3, column=0)
 button_2.grid(row=3, column=1)
 button_3.grid(row=3, column=2)

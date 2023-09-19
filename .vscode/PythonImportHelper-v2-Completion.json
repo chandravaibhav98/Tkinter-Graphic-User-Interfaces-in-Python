@@ -40,6 +40,14 @@
         "documentation": {}
     },
     {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
         "label": "disable",
         "importPath": "gc",
         "description": "gc",
@@ -53,6 +61,22 @@
         "description": "gc",
         "isExtraImport": true,
         "detail": "gc",
+        "documentation": {}
+    },
+    {
+        "label": "ImageTk",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
         "documentation": {}
     },
     {
@@ -404,6 +428,42 @@
         "description": "5-calculator",
         "peekOfCode": "button_divide = Button(root, text=\"/\", padx=41, pady=20, command=button_divide)\n# Put the buttons on the screen\nbutton_1.grid(row=3, column=0)\nbutton_2.grid(row=3, column=1)\nbutton_3.grid(row=3, column=2)\nbutton_4.grid(row=2, column=0)\nbutton_5.grid(row=2, column=1)\nbutton_6.grid(row=2, column=2)\nbutton_7.grid(row=1, column=0)\nbutton_8.grid(row=1, column=1)",
         "detail": "5-calculator",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "6-icons-images",
+        "description": "6-icons-images",
+        "peekOfCode": "root = Tk()\nroot.title('Using Icons, Images and Exit Buttons')\nroot.iconbitmap('./icons/codemy.ico')\nbutton_quit = Button(\n    root, text='Exit Program with root.quit()', command=root.quit)\nbutton_quit.pack()\npython_img = ImageTk.PhotoImage(Image.open('./images/python.png'))\npython_label = Label(image=python_img)\npython_label.pack()\nroot.mainloop()",
+        "detail": "6-icons-images",
+        "documentation": {}
+    },
+    {
+        "label": "button_quit",
+        "kind": 5,
+        "importPath": "6-icons-images",
+        "description": "6-icons-images",
+        "peekOfCode": "button_quit = Button(\n    root, text='Exit Program with root.quit()', command=root.quit)\nbutton_quit.pack()\npython_img = ImageTk.PhotoImage(Image.open('./images/python.png'))\npython_label = Label(image=python_img)\npython_label.pack()\nroot.mainloop()",
+        "detail": "6-icons-images",
+        "documentation": {}
+    },
+    {
+        "label": "python_img",
+        "kind": 5,
+        "importPath": "6-icons-images",
+        "description": "6-icons-images",
+        "peekOfCode": "python_img = ImageTk.PhotoImage(Image.open('./images/python.png'))\npython_label = Label(image=python_img)\npython_label.pack()\nroot.mainloop()",
+        "detail": "6-icons-images",
+        "documentation": {}
+    },
+    {
+        "label": "python_label",
+        "kind": 5,
+        "importPath": "6-icons-images",
+        "description": "6-icons-images",
+        "peekOfCode": "python_label = Label(image=python_img)\npython_label.pack()\nroot.mainloop()",
+        "detail": "6-icons-images",
         "documentation": {}
     }
 ]
