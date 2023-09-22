@@ -48,6 +48,30 @@
         "documentation": {}
     },
     {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
         "label": "disable",
         "importPath": "gc",
         "description": "gc",
@@ -61,6 +85,54 @@
         "description": "gc",
         "isExtraImport": true,
         "detail": "gc",
+        "documentation": {}
+    },
+    {
+        "label": "ImageTk",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageTk",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageTk",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
         "documentation": {}
     },
     {
@@ -464,6 +536,186 @@
         "description": "6-icons-images",
         "peekOfCode": "python_label = Label(image=python_img)\npython_label.pack()\nroot.mainloop()",
         "detail": "6-icons-images",
+        "documentation": {}
+    },
+    {
+        "label": "forward",
+        "kind": 2,
+        "importPath": "7-image-viewer",
+        "description": "7-image-viewer",
+        "peekOfCode": "def forward(image_number):\n    global my_label\n    global button_forward\n    global button_back\n    my_label.grid_forget()\n    my_label = Label(image=image_list[image_number-1])\n    button_forward = Button(\n        root, text=\">>\", command=lambda: forward(image_number+1))\n    button_back = Button(root, text=\"<<\", command=lambda: back(image_number-1))\n    if image_number == 5:",
+        "detail": "7-image-viewer",
+        "documentation": {}
+    },
+    {
+        "label": "back",
+        "kind": 2,
+        "importPath": "7-image-viewer",
+        "description": "7-image-viewer",
+        "peekOfCode": "def back(image_number):\n    global my_label\n    global button_forward\n    global button_back\n    my_label.grid_forget()\n    my_label = Label(image=image_list[image_number-1])\n    button_forward = Button(\n        root, text=\">>\", command=lambda: forward(image_number+1))\n    button_back = Button(root, text=\"<<\", command=lambda: back(image_number-1))\n    if image_number == 1:",
+        "detail": "7-image-viewer",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "7-image-viewer",
+        "description": "7-image-viewer",
+        "peekOfCode": "root = Tk()\nroot.title('Using Icons, Images and Exit Buttons')\nroot.iconbitmap('./icons/codemy.ico')\npython_img = ImageTk.PhotoImage(Image.open('./images/python.png'))\npython_tkinter_img = ImageTk.PhotoImage(\n    Image.open('./images/python-tkinter.jpg'))\npython_scikitlearn_img = ImageTk.PhotoImage(\n    Image.open('./images/python-sckitlearn.jpeg'))\npython_flask_img = ImageTk.PhotoImage(Image.open('./images/python-flask.png'))\npython_django_img = ImageTk.PhotoImage(",
+        "detail": "7-image-viewer",
+        "documentation": {}
+    },
+    {
+        "label": "python_img",
+        "kind": 5,
+        "importPath": "7-image-viewer",
+        "description": "7-image-viewer",
+        "peekOfCode": "python_img = ImageTk.PhotoImage(Image.open('./images/python.png'))\npython_tkinter_img = ImageTk.PhotoImage(\n    Image.open('./images/python-tkinter.jpg'))\npython_scikitlearn_img = ImageTk.PhotoImage(\n    Image.open('./images/python-sckitlearn.jpeg'))\npython_flask_img = ImageTk.PhotoImage(Image.open('./images/python-flask.png'))\npython_django_img = ImageTk.PhotoImage(\n    Image.open('./images/python-django.png'))\npython_pyspark_img = ImageTk.PhotoImage(\n    Image.open('./images/python-pySpark.png'))",
+        "detail": "7-image-viewer",
+        "documentation": {}
+    },
+    {
+        "label": "python_tkinter_img",
+        "kind": 5,
+        "importPath": "7-image-viewer",
+        "description": "7-image-viewer",
+        "peekOfCode": "python_tkinter_img = ImageTk.PhotoImage(\n    Image.open('./images/python-tkinter.jpg'))\npython_scikitlearn_img = ImageTk.PhotoImage(\n    Image.open('./images/python-sckitlearn.jpeg'))\npython_flask_img = ImageTk.PhotoImage(Image.open('./images/python-flask.png'))\npython_django_img = ImageTk.PhotoImage(\n    Image.open('./images/python-django.png'))\npython_pyspark_img = ImageTk.PhotoImage(\n    Image.open('./images/python-pySpark.png'))\nimage_list = [python_img, python_tkinter_img, python_scikitlearn_img,",
+        "detail": "7-image-viewer",
+        "documentation": {}
+    },
+    {
+        "label": "python_scikitlearn_img",
+        "kind": 5,
+        "importPath": "7-image-viewer",
+        "description": "7-image-viewer",
+        "peekOfCode": "python_scikitlearn_img = ImageTk.PhotoImage(\n    Image.open('./images/python-sckitlearn.jpeg'))\npython_flask_img = ImageTk.PhotoImage(Image.open('./images/python-flask.png'))\npython_django_img = ImageTk.PhotoImage(\n    Image.open('./images/python-django.png'))\npython_pyspark_img = ImageTk.PhotoImage(\n    Image.open('./images/python-pySpark.png'))\nimage_list = [python_img, python_tkinter_img, python_scikitlearn_img,\n              python_flask_img, python_django_img, python_pyspark_img]\nmy_label = Label(image=image_list[0])",
+        "detail": "7-image-viewer",
+        "documentation": {}
+    },
+    {
+        "label": "python_flask_img",
+        "kind": 5,
+        "importPath": "7-image-viewer",
+        "description": "7-image-viewer",
+        "peekOfCode": "python_flask_img = ImageTk.PhotoImage(Image.open('./images/python-flask.png'))\npython_django_img = ImageTk.PhotoImage(\n    Image.open('./images/python-django.png'))\npython_pyspark_img = ImageTk.PhotoImage(\n    Image.open('./images/python-pySpark.png'))\nimage_list = [python_img, python_tkinter_img, python_scikitlearn_img,\n              python_flask_img, python_django_img, python_pyspark_img]\nmy_label = Label(image=image_list[0])\nmy_label.grid(row=0, column=0, columnspan=3)\nstatus_label = Label(",
+        "detail": "7-image-viewer",
+        "documentation": {}
+    },
+    {
+        "label": "python_django_img",
+        "kind": 5,
+        "importPath": "7-image-viewer",
+        "description": "7-image-viewer",
+        "peekOfCode": "python_django_img = ImageTk.PhotoImage(\n    Image.open('./images/python-django.png'))\npython_pyspark_img = ImageTk.PhotoImage(\n    Image.open('./images/python-pySpark.png'))\nimage_list = [python_img, python_tkinter_img, python_scikitlearn_img,\n              python_flask_img, python_django_img, python_pyspark_img]\nmy_label = Label(image=image_list[0])\nmy_label.grid(row=0, column=0, columnspan=3)\nstatus_label = Label(\n    root, text=f'Image 1 of {str(len(image_list))}', bd=1, relief=SUNKEN, anchor=E)",
+        "detail": "7-image-viewer",
+        "documentation": {}
+    },
+    {
+        "label": "python_pyspark_img",
+        "kind": 5,
+        "importPath": "7-image-viewer",
+        "description": "7-image-viewer",
+        "peekOfCode": "python_pyspark_img = ImageTk.PhotoImage(\n    Image.open('./images/python-pySpark.png'))\nimage_list = [python_img, python_tkinter_img, python_scikitlearn_img,\n              python_flask_img, python_django_img, python_pyspark_img]\nmy_label = Label(image=image_list[0])\nmy_label.grid(row=0, column=0, columnspan=3)\nstatus_label = Label(\n    root, text=f'Image 1 of {str(len(image_list))}', bd=1, relief=SUNKEN, anchor=E)\ndef forward(image_number):\n    global my_label",
+        "detail": "7-image-viewer",
+        "documentation": {}
+    },
+    {
+        "label": "image_list",
+        "kind": 5,
+        "importPath": "7-image-viewer",
+        "description": "7-image-viewer",
+        "peekOfCode": "image_list = [python_img, python_tkinter_img, python_scikitlearn_img,\n              python_flask_img, python_django_img, python_pyspark_img]\nmy_label = Label(image=image_list[0])\nmy_label.grid(row=0, column=0, columnspan=3)\nstatus_label = Label(\n    root, text=f'Image 1 of {str(len(image_list))}', bd=1, relief=SUNKEN, anchor=E)\ndef forward(image_number):\n    global my_label\n    global button_forward\n    global button_back",
+        "detail": "7-image-viewer",
+        "documentation": {}
+    },
+    {
+        "label": "my_label",
+        "kind": 5,
+        "importPath": "7-image-viewer",
+        "description": "7-image-viewer",
+        "peekOfCode": "my_label = Label(image=image_list[0])\nmy_label.grid(row=0, column=0, columnspan=3)\nstatus_label = Label(\n    root, text=f'Image 1 of {str(len(image_list))}', bd=1, relief=SUNKEN, anchor=E)\ndef forward(image_number):\n    global my_label\n    global button_forward\n    global button_back\n    my_label.grid_forget()\n    my_label = Label(image=image_list[image_number-1])",
+        "detail": "7-image-viewer",
+        "documentation": {}
+    },
+    {
+        "label": "status_label",
+        "kind": 5,
+        "importPath": "7-image-viewer",
+        "description": "7-image-viewer",
+        "peekOfCode": "status_label = Label(\n    root, text=f'Image 1 of {str(len(image_list))}', bd=1, relief=SUNKEN, anchor=E)\ndef forward(image_number):\n    global my_label\n    global button_forward\n    global button_back\n    my_label.grid_forget()\n    my_label = Label(image=image_list[image_number-1])\n    button_forward = Button(\n        root, text=\">>\", command=lambda: forward(image_number+1))",
+        "detail": "7-image-viewer",
+        "documentation": {}
+    },
+    {
+        "label": "button_back",
+        "kind": 5,
+        "importPath": "7-image-viewer",
+        "description": "7-image-viewer",
+        "peekOfCode": "button_back = Button(root, text=\"<<\", command=back, state=DISABLED)\nbutton_exit = Button(root, text=\"Exit Program\", command=root.quit)\nbutton_forward = Button(root, text=\">>\", command=lambda: forward(1))\nbutton_back.grid(row=1, column=0)\nbutton_exit.grid(row=1, column=1)\nbutton_forward.grid(row=1, column=2)\nstatus_label.grid(row=2, column=0, columnspan=3, sticky=W+E)\nroot.mainloop()",
+        "detail": "7-image-viewer",
+        "documentation": {}
+    },
+    {
+        "label": "button_exit",
+        "kind": 5,
+        "importPath": "7-image-viewer",
+        "description": "7-image-viewer",
+        "peekOfCode": "button_exit = Button(root, text=\"Exit Program\", command=root.quit)\nbutton_forward = Button(root, text=\">>\", command=lambda: forward(1))\nbutton_back.grid(row=1, column=0)\nbutton_exit.grid(row=1, column=1)\nbutton_forward.grid(row=1, column=2)\nstatus_label.grid(row=2, column=0, columnspan=3, sticky=W+E)\nroot.mainloop()",
+        "detail": "7-image-viewer",
+        "documentation": {}
+    },
+    {
+        "label": "button_forward",
+        "kind": 5,
+        "importPath": "7-image-viewer",
+        "description": "7-image-viewer",
+        "peekOfCode": "button_forward = Button(root, text=\">>\", command=lambda: forward(1))\nbutton_back.grid(row=1, column=0)\nbutton_exit.grid(row=1, column=1)\nbutton_forward.grid(row=1, column=2)\nstatus_label.grid(row=2, column=0, columnspan=3, sticky=W+E)\nroot.mainloop()",
+        "detail": "7-image-viewer",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "8-frames",
+        "description": "8-frames",
+        "peekOfCode": "root = Tk()\nroot.title('Frames')\nroot.iconbitmap('./icons/codemy.ico')\nframe = LabelFrame(root, padx=50, pady=50)\nframe.pack(padx=10, pady=10)\nb = Button(frame, text=\"Don't Click Here!\")\nb2 = Button(frame, text=\"...or here!\")\nb.grid(row=0, column=0)\nb2.grid(row=1, column=1)\nroot.mainloop()",
+        "detail": "8-frames",
+        "documentation": {}
+    },
+    {
+        "label": "frame",
+        "kind": 5,
+        "importPath": "8-frames",
+        "description": "8-frames",
+        "peekOfCode": "frame = LabelFrame(root, padx=50, pady=50)\nframe.pack(padx=10, pady=10)\nb = Button(frame, text=\"Don't Click Here!\")\nb2 = Button(frame, text=\"...or here!\")\nb.grid(row=0, column=0)\nb2.grid(row=1, column=1)\nroot.mainloop()",
+        "detail": "8-frames",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "8-frames",
+        "description": "8-frames",
+        "peekOfCode": "b = Button(frame, text=\"Don't Click Here!\")\nb2 = Button(frame, text=\"...or here!\")\nb.grid(row=0, column=0)\nb2.grid(row=1, column=1)\nroot.mainloop()",
+        "detail": "8-frames",
+        "documentation": {}
+    },
+    {
+        "label": "b2",
+        "kind": 5,
+        "importPath": "8-frames",
+        "description": "8-frames",
+        "peekOfCode": "b2 = Button(frame, text=\"...or here!\")\nb.grid(row=0, column=0)\nb2.grid(row=1, column=1)\nroot.mainloop()",
+        "detail": "8-frames",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "9-radio-buttons",
+        "description": "9-radio-buttons",
+        "peekOfCode": "root = Tk()\nroot.title('Radio_Buttons')\nroot.iconbitmap('./icons/codemy.ico')\nroot.mainloop()",
+        "detail": "9-radio-buttons",
         "documentation": {}
     }
 ]
