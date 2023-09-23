@@ -16,7 +16,31 @@
         "documentation": {}
     },
     {
+        "label": "messagebox",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
         "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "filedialog",
         "importPath": "tkinter",
         "description": "tkinter",
         "isExtraImport": true,
@@ -69,6 +93,158 @@
         "description": "tkinter",
         "isExtraImport": true,
         "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "ImageTk",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageTk",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageTk",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageTk",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageTk",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageTk",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageTk",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageTk",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
         "documentation": {}
     },
     {
@@ -88,67 +264,11 @@
         "documentation": {}
     },
     {
-        "label": "ImageTk",
-        "importPath": "PIL",
-        "description": "PIL",
+        "label": "RadioButton",
+        "importPath": "msilib.schema",
+        "description": "msilib.schema",
         "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "ImageTk",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "ImageTk",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "ImageTk",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
+        "detail": "msilib.schema",
         "documentation": {}
     },
     {
@@ -167,6 +287,123 @@
         "description": "1-pack",
         "peekOfCode": "myLabel = Label(root, text=\"tkinter\")\n# Display it on screen\nmyLabel.pack()\nroot.mainloop()",
         "detail": "1-pack",
+        "documentation": {}
+    },
+    {
+        "label": "popup",
+        "kind": 2,
+        "importPath": "10-message-boxes",
+        "description": "10-message-boxes",
+        "peekOfCode": "def popup():\n    response = messagebox.askyesno(\"Message box\", 'Yes/No')\n    # Label(root, text=response).pack()\n    if response == 1:\n        Label(root, text=f'You made a Positive Response : {response}').pack()\n    else:\n        Label(root, text=f'You made a Negative Response : {response}').pack()\nButton(root, text='Popup', command=popup).pack()\nroot.mainloop()",
+        "detail": "10-message-boxes",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "10-message-boxes",
+        "description": "10-message-boxes",
+        "peekOfCode": "root = Tk()\nroot.title('Message boxes')\nroot.iconbitmap('./icons/codemy.ico')\n# messagebox.showinfo(\"Message box\", 'Info')\n# messagebox.showwarning(\"Message box\", 'Warning')\n# messagebox.showerror(\"Message box\", 'Error')\n# messagebox.askquestion(\"Message box\", 'Question')\n# messagebox.askokcancel(\"Message box\", 'Ok/Cancel')\n# messagebox.askyesno(\"Message box\", 'Yes/No')\ndef popup():",
+        "detail": "10-message-boxes",
+        "documentation": {}
+    },
+    {
+        "label": "openWindow",
+        "kind": 2,
+        "importPath": "11-create-window",
+        "description": "11-create-window",
+        "peekOfCode": "def openWindow():\n    top = Toplevel()\n    top.title('Create new Windows')\n    top.iconbitmap('./icons/codemy.ico')\n    global my_img\n    my_img = ImageTk.PhotoImage(Image.open('./images/python-tkinter.jpg'))\n    my_label = Label(top, image=my_img).pack()\n    closeWindowBtn = Button(top, text='Exit', command=top.destroy).pack()\nopenWindowBtn = Button(root, text='Open Window', command=openWindow).pack()\nroot.mainloop()",
+        "detail": "11-create-window",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "11-create-window",
+        "description": "11-create-window",
+        "peekOfCode": "root = Tk()\nroot.title('Create new Windows')\nroot.iconbitmap('./icons/codemy.ico')\ndef openWindow():\n    top = Toplevel()\n    top.title('Create new Windows')\n    top.iconbitmap('./icons/codemy.ico')\n    global my_img\n    my_img = ImageTk.PhotoImage(Image.open('./images/python-tkinter.jpg'))\n    my_label = Label(top, image=my_img).pack()",
+        "detail": "11-create-window",
+        "documentation": {}
+    },
+    {
+        "label": "openWindowBtn",
+        "kind": 5,
+        "importPath": "11-create-window",
+        "description": "11-create-window",
+        "peekOfCode": "openWindowBtn = Button(root, text='Open Window', command=openWindow).pack()\nroot.mainloop()",
+        "detail": "11-create-window",
+        "documentation": {}
+    },
+    {
+        "label": "open",
+        "kind": 2,
+        "importPath": "12-file-dialog",
+        "description": "12-file-dialog",
+        "peekOfCode": "def open():\n    global my_image\n    root.filename = filedialog.askopenfilename(\n        initialdir=\"/images\", title=\"Select A File\", filetypes=((\"jpg files\", \"*.jpg\"), (\"all files\", \"*.*\")))\n    my_label = Label(root, text=root.filename).pack()\n    my_image = ImageTk.PhotoImage(Image.open(root.filename))\n    my_image_label = Label(image=my_image).pack()\nmy_btn = Button(root, text=\"Open File\", command=open).pack()\nroot.mainloop()",
+        "detail": "12-file-dialog",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "12-file-dialog",
+        "description": "12-file-dialog",
+        "peekOfCode": "root = Tk()\nroot.title('File Dialog')\nroot.iconbitmap('./icons/codemy.ico')\ndef open():\n    global my_image\n    root.filename = filedialog.askopenfilename(\n        initialdir=\"/images\", title=\"Select A File\", filetypes=((\"jpg files\", \"*.jpg\"), (\"all files\", \"*.*\")))\n    my_label = Label(root, text=root.filename).pack()\n    my_image = ImageTk.PhotoImage(Image.open(root.filename))\n    my_image_label = Label(image=my_image).pack()",
+        "detail": "12-file-dialog",
+        "documentation": {}
+    },
+    {
+        "label": "my_btn",
+        "kind": 5,
+        "importPath": "12-file-dialog",
+        "description": "12-file-dialog",
+        "peekOfCode": "my_btn = Button(root, text=\"Open File\", command=open).pack()\nroot.mainloop()",
+        "detail": "12-file-dialog",
+        "documentation": {}
+    },
+    {
+        "label": "slide",
+        "kind": 2,
+        "importPath": "13-slider",
+        "description": "13-slider",
+        "peekOfCode": "def slide(value):\n    horizontal_label = Label(\n        root, text=f'Horizontal:{horizontal.get()}').pack()\n    vertical_label = Label(root, text=f'Vertical:{vertical.get()}').pack()\nvertical = Scale(root, from_=0, to=100)\nvertical.pack()\nhorizontal = Scale(root, from_=0, to=100, orient=HORIZONTAL, command=slide)\nhorizontal.pack()\n# horizontal_label = Label(root, text=horizontal.get()).pack()\n# vertical_label = Label(root, text=vertical.get()).pack()",
+        "detail": "13-slider",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "13-slider",
+        "description": "13-slider",
+        "peekOfCode": "root = Tk()\nroot.title('File Dialog')\nroot.iconbitmap('./icons/codemy.ico')\nroot.geometry(\"500x500\")\ndef slide(value):\n    horizontal_label = Label(\n        root, text=f'Horizontal:{horizontal.get()}').pack()\n    vertical_label = Label(root, text=f'Vertical:{vertical.get()}').pack()\nvertical = Scale(root, from_=0, to=100)\nvertical.pack()",
+        "detail": "13-slider",
+        "documentation": {}
+    },
+    {
+        "label": "vertical",
+        "kind": 5,
+        "importPath": "13-slider",
+        "description": "13-slider",
+        "peekOfCode": "vertical = Scale(root, from_=0, to=100)\nvertical.pack()\nhorizontal = Scale(root, from_=0, to=100, orient=HORIZONTAL, command=slide)\nhorizontal.pack()\n# horizontal_label = Label(root, text=horizontal.get()).pack()\n# vertical_label = Label(root, text=vertical.get()).pack()\nmy_btn = Button(root, text=\"Click\", command=slide).pack()\nroot.mainloop()",
+        "detail": "13-slider",
+        "documentation": {}
+    },
+    {
+        "label": "horizontal",
+        "kind": 5,
+        "importPath": "13-slider",
+        "description": "13-slider",
+        "peekOfCode": "horizontal = Scale(root, from_=0, to=100, orient=HORIZONTAL, command=slide)\nhorizontal.pack()\n# horizontal_label = Label(root, text=horizontal.get()).pack()\n# vertical_label = Label(root, text=vertical.get()).pack()\nmy_btn = Button(root, text=\"Click\", command=slide).pack()\nroot.mainloop()",
+        "detail": "13-slider",
+        "documentation": {}
+    },
+    {
+        "label": "my_btn",
+        "kind": 5,
+        "importPath": "13-slider",
+        "description": "13-slider",
+        "peekOfCode": "my_btn = Button(root, text=\"Click\", command=slide).pack()\nroot.mainloop()",
+        "detail": "13-slider",
         "documentation": {}
     },
     {
@@ -710,11 +947,56 @@
         "documentation": {}
     },
     {
+        "label": "clicked",
+        "kind": 2,
+        "importPath": "9-radio-buttons",
+        "description": "9-radio-buttons",
+        "peekOfCode": "def clicked(value):\n    myLabel = Label(root, text=value)\n    myLabel.pack()\n# Radiobutton(root, text=\"Option 1\", variable=r, value=1,\n#             command=lambda: clicked(r.get())).pack()\n# Radiobutton(root, text=\"Option 1\", variable=r, value=2,\n#             command=lambda: clicked(r.get())).pack()\n# myLabel = Label(root, text=pizza.get())\n# myLabel.pack()\nmyButton = Button(root, text='Click', command=lambda: clicked(pizza.get()))",
+        "detail": "9-radio-buttons",
+        "documentation": {}
+    },
+    {
         "label": "root",
         "kind": 5,
         "importPath": "9-radio-buttons",
         "description": "9-radio-buttons",
-        "peekOfCode": "root = Tk()\nroot.title('Radio_Buttons')\nroot.iconbitmap('./icons/codemy.ico')\nroot.mainloop()",
+        "peekOfCode": "root = Tk()\nroot.title('Radio_Buttons')\nroot.iconbitmap('./icons/codemy.ico')\nr = IntVar()\nr.set(1)\nTOPPINGS = [\n    (\"Cheesy\", \"Cheesy\"),\n    (\"Pepperoni\", \"Pepperoni\"),\n    (\"Mushroom\", \"Mushroom\"),\n    (\"Dominator\", \"Dominator\"),",
+        "detail": "9-radio-buttons",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "9-radio-buttons",
+        "description": "9-radio-buttons",
+        "peekOfCode": "r = IntVar()\nr.set(1)\nTOPPINGS = [\n    (\"Cheesy\", \"Cheesy\"),\n    (\"Pepperoni\", \"Pepperoni\"),\n    (\"Mushroom\", \"Mushroom\"),\n    (\"Dominator\", \"Dominator\"),\n]\npizza = StringVar()\npizza.set(\"Pepperoni\")",
+        "detail": "9-radio-buttons",
+        "documentation": {}
+    },
+    {
+        "label": "TOPPINGS",
+        "kind": 5,
+        "importPath": "9-radio-buttons",
+        "description": "9-radio-buttons",
+        "peekOfCode": "TOPPINGS = [\n    (\"Cheesy\", \"Cheesy\"),\n    (\"Pepperoni\", \"Pepperoni\"),\n    (\"Mushroom\", \"Mushroom\"),\n    (\"Dominator\", \"Dominator\"),\n]\npizza = StringVar()\npizza.set(\"Pepperoni\")\nfor text, TOPPING in TOPPINGS:\n    Radiobutton(root, variable=pizza, value=TOPPING, text=text).pack(anchor=W)",
+        "detail": "9-radio-buttons",
+        "documentation": {}
+    },
+    {
+        "label": "pizza",
+        "kind": 5,
+        "importPath": "9-radio-buttons",
+        "description": "9-radio-buttons",
+        "peekOfCode": "pizza = StringVar()\npizza.set(\"Pepperoni\")\nfor text, TOPPING in TOPPINGS:\n    Radiobutton(root, variable=pizza, value=TOPPING, text=text).pack(anchor=W)\ndef clicked(value):\n    myLabel = Label(root, text=value)\n    myLabel.pack()\n# Radiobutton(root, text=\"Option 1\", variable=r, value=1,\n#             command=lambda: clicked(r.get())).pack()\n# Radiobutton(root, text=\"Option 1\", variable=r, value=2,",
+        "detail": "9-radio-buttons",
+        "documentation": {}
+    },
+    {
+        "label": "myButton",
+        "kind": 5,
+        "importPath": "9-radio-buttons",
+        "description": "9-radio-buttons",
+        "peekOfCode": "myButton = Button(root, text='Click', command=lambda: clicked(pizza.get()))\nmyButton.pack()\nroot.mainloop()",
         "detail": "9-radio-buttons",
         "documentation": {}
     }

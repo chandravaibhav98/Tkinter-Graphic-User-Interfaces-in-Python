@@ -6,5 +6,11 @@
 - input fields
 - Calculator
 - icons, images and exit buttons
-- image viewer with status bar
+- Image-Viewer with status bar
 - frames
+- radio buttons
+- message boxes
+- create windows
+- file dialog
+- slider
+- checkboxes
