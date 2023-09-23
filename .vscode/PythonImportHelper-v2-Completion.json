@@ -120,35 +120,27 @@
         "documentation": {}
     },
     {
-        "label": "ImageTk",
-        "importPath": "PIL",
-        "description": "PIL",
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
         "isExtraImport": true,
-        "detail": "PIL",
+        "detail": "tkinter",
         "documentation": {}
     },
     {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
         "isExtraImport": true,
-        "detail": "PIL",
+        "detail": "tkinter",
         "documentation": {}
     },
     {
-        "label": "ImageTk",
-        "importPath": "PIL",
-        "description": "PIL",
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
         "isExtraImport": true,
-        "detail": "PIL",
-        "documentation": {}
-    },
-    {
-        "label": "Image",
-        "importPath": "PIL",
-        "description": "PIL",
-        "isExtraImport": true,
-        "detail": "PIL",
+        "detail": "tkinter",
         "documentation": {}
     },
     {
@@ -245,6 +237,95 @@
         "description": "PIL",
         "isExtraImport": true,
         "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageTk",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageTk",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageTk",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageTk",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageTk",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
         "documentation": {}
     },
     {
@@ -404,6 +485,393 @@
         "description": "13-slider",
         "peekOfCode": "my_btn = Button(root, text=\"Click\", command=slide).pack()\nroot.mainloop()",
         "detail": "13-slider",
+        "documentation": {}
+    },
+    {
+        "label": "show",
+        "kind": 2,
+        "importPath": "14-checkboxes",
+        "description": "14-checkboxes",
+        "peekOfCode": "def show():\n    myLabel = Label(root, text=var.get()).pack()\nvar = StringVar()\nc = Checkbutton(root, text=\"SuperSize? RegularSize\",\n                variable=var, onvalue=\"SuperSize\", offvalue=\"RegularSize\")\nc.deselect()\nc.pack()\nmyButton = Button(root, text=\"Show Selection\", command=show).pack()\nroot.mainloop()",
+        "detail": "14-checkboxes",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "14-checkboxes",
+        "description": "14-checkboxes",
+        "peekOfCode": "root = Tk()\nroot.title('Checkboxes')\nroot.iconbitmap('./icons/codemy.ico')\nroot.geometry(\"200x200\")\ndef show():\n    myLabel = Label(root, text=var.get()).pack()\nvar = StringVar()\nc = Checkbutton(root, text=\"SuperSize? RegularSize\",\n                variable=var, onvalue=\"SuperSize\", offvalue=\"RegularSize\")\nc.deselect()",
+        "detail": "14-checkboxes",
+        "documentation": {}
+    },
+    {
+        "label": "var",
+        "kind": 5,
+        "importPath": "14-checkboxes",
+        "description": "14-checkboxes",
+        "peekOfCode": "var = StringVar()\nc = Checkbutton(root, text=\"SuperSize? RegularSize\",\n                variable=var, onvalue=\"SuperSize\", offvalue=\"RegularSize\")\nc.deselect()\nc.pack()\nmyButton = Button(root, text=\"Show Selection\", command=show).pack()\nroot.mainloop()",
+        "detail": "14-checkboxes",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "14-checkboxes",
+        "description": "14-checkboxes",
+        "peekOfCode": "c = Checkbutton(root, text=\"SuperSize? RegularSize\",\n                variable=var, onvalue=\"SuperSize\", offvalue=\"RegularSize\")\nc.deselect()\nc.pack()\nmyButton = Button(root, text=\"Show Selection\", command=show).pack()\nroot.mainloop()",
+        "detail": "14-checkboxes",
+        "documentation": {}
+    },
+    {
+        "label": "myButton",
+        "kind": 5,
+        "importPath": "14-checkboxes",
+        "description": "14-checkboxes",
+        "peekOfCode": "myButton = Button(root, text=\"Show Selection\", command=show).pack()\nroot.mainloop()",
+        "detail": "14-checkboxes",
+        "documentation": {}
+    },
+    {
+        "label": "show",
+        "kind": 2,
+        "importPath": "15-dropdown-menu",
+        "description": "15-dropdown-menu",
+        "peekOfCode": "def show():\n    myLabel = Label(root, text=clicked.get()).pack()\noptions = [\"Monday\", \"Tuesday\",\n           \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"]\ndrop = OptionMenu(root, clicked, *options)\ndrop.pack()\nmyButton = Button(root, text=\"Show Selection\", command=show).pack()\nroot.mainloop()",
+        "detail": "15-dropdown-menu",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "15-dropdown-menu",
+        "description": "15-dropdown-menu",
+        "peekOfCode": "root = Tk()\nroot.title('DropDown Menu')\nroot.iconbitmap('./icons/codemy.ico')\nroot.geometry(\"200x200\")\nclicked = StringVar()\nclicked.set(\"Sunday\")\ndef show():\n    myLabel = Label(root, text=clicked.get()).pack()\noptions = [\"Monday\", \"Tuesday\",\n           \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"]",
+        "detail": "15-dropdown-menu",
+        "documentation": {}
+    },
+    {
+        "label": "clicked",
+        "kind": 5,
+        "importPath": "15-dropdown-menu",
+        "description": "15-dropdown-menu",
+        "peekOfCode": "clicked = StringVar()\nclicked.set(\"Sunday\")\ndef show():\n    myLabel = Label(root, text=clicked.get()).pack()\noptions = [\"Monday\", \"Tuesday\",\n           \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"]\ndrop = OptionMenu(root, clicked, *options)\ndrop.pack()\nmyButton = Button(root, text=\"Show Selection\", command=show).pack()\nroot.mainloop()",
+        "detail": "15-dropdown-menu",
+        "documentation": {}
+    },
+    {
+        "label": "options",
+        "kind": 5,
+        "importPath": "15-dropdown-menu",
+        "description": "15-dropdown-menu",
+        "peekOfCode": "options = [\"Monday\", \"Tuesday\",\n           \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"]\ndrop = OptionMenu(root, clicked, *options)\ndrop.pack()\nmyButton = Button(root, text=\"Show Selection\", command=show).pack()\nroot.mainloop()",
+        "detail": "15-dropdown-menu",
+        "documentation": {}
+    },
+    {
+        "label": "drop",
+        "kind": 5,
+        "importPath": "15-dropdown-menu",
+        "description": "15-dropdown-menu",
+        "peekOfCode": "drop = OptionMenu(root, clicked, *options)\ndrop.pack()\nmyButton = Button(root, text=\"Show Selection\", command=show).pack()\nroot.mainloop()",
+        "detail": "15-dropdown-menu",
+        "documentation": {}
+    },
+    {
+        "label": "myButton",
+        "kind": 5,
+        "importPath": "15-dropdown-menu",
+        "description": "15-dropdown-menu",
+        "peekOfCode": "myButton = Button(root, text=\"Show Selection\", command=show).pack()\nroot.mainloop()",
+        "detail": "15-dropdown-menu",
+        "documentation": {}
+    },
+    {
+        "label": "update",
+        "kind": 2,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "def update():\n    conn = sqlite3.connect('address_book.db')\n    c = conn.cursor()\n    record_id = delete_box.get()\n    c.execute(\"\"\"UPDATE addresses SET\n\t\tfirst_name = :first,\n\t\tlast_name = :last,\n\t\taddress = :address,\n\t\tcity = :city,\n\t\tstate = :state,",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "edit",
+        "kind": 2,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "def edit():\n    root.withdraw()\n    global editor\n    editor = Tk()\n    editor.title('Update A Record')\n    editor.iconbitmap('c:/gui/codemy.ico')\n    editor.geometry(\"400x300\")\n    conn = sqlite3.connect('address_book.db')\n    c = conn.cursor()\n    record_id = delete_box.get()",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "kind": 2,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "def delete():\n    conn = sqlite3.connect('address_book.db')\n    c = conn.cursor()\n    c.execute(\"DELETE from addresses WHERE oid = \" + delete_box.get())\n    delete_box.delete(0, END)\n    conn.commit()\n    conn.close()\ndef submit():\n    conn = sqlite3.connect('address_book.db')\n    c = conn.cursor()",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "submit",
+        "kind": 2,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "def submit():\n    conn = sqlite3.connect('address_book.db')\n    c = conn.cursor()\n    c.execute(\"INSERT INTO addresses VALUES (:f_name, :l_name, :address, :city, :state, :zipcode)\",\n              {\n                  'f_name': f_name.get(),\n                  'l_name': l_name.get(),\n                  'address': address.get(),\n                  'city': city.get(),\n                  'state': state.get(),",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "query",
+        "kind": 2,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "def query():\n    conn = sqlite3.connect('address_book.db')\n    c = conn.cursor()\n    c.execute(\"SELECT *, oid FROM addresses\")\n    records = c.fetchall()\n    print_records = ''\n    for record in records:\n        print_records += str(record[0]) + \" \" + \\\n            str(record[1]) + \" \" + \"\\t\" + str(record[6]) + \"\\n\"\n    query_label = Label(root, text=print_records)",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "root = Tk()\nroot.title('Using Databases')\nroot.iconbitmap('./icons/codemy.ico')\nroot.geometry(\"400x600\")\n# Databases\nconn = sqlite3.connect('address_book.db')\nc = conn.cursor()\n# c.execute(\"\"\"CREATE TABLE addresses (\n# \t\tfirst_name text,\n# \t\tlast_name text,",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "conn = sqlite3.connect('address_book.db')\nc = conn.cursor()\n# c.execute(\"\"\"CREATE TABLE addresses (\n# \t\tfirst_name text,\n# \t\tlast_name text,\n# \t\taddress text,\n# \t\tcity text,\n# \t\tstate text,\n# \t\tzipcode integer\n# \t\t)\"\"\")",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "c = conn.cursor()\n# c.execute(\"\"\"CREATE TABLE addresses (\n# \t\tfirst_name text,\n# \t\tlast_name text,\n# \t\taddress text,\n# \t\tcity text,\n# \t\tstate text,\n# \t\tzipcode integer\n# \t\t)\"\"\")\ndef update():",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tfirst_name",
+        "kind": 5,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "\t\tfirst_name = :first,\n\t\tlast_name = :last,\n\t\taddress = :address,\n\t\tcity = :city,\n\t\tstate = :state,\n\t\tzipcode = :zipcode \n\t\tWHERE oid = :oid\"\"\",\n              {\n                  'first': f_name_editor.get(),\n                  'last': l_name_editor.get(),",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tlast_name",
+        "kind": 5,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "\t\tlast_name = :last,\n\t\taddress = :address,\n\t\tcity = :city,\n\t\tstate = :state,\n\t\tzipcode = :zipcode \n\t\tWHERE oid = :oid\"\"\",\n              {\n                  'first': f_name_editor.get(),\n                  'last': l_name_editor.get(),\n                  'address': address_editor.get(),",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "\t\taddress",
+        "kind": 5,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "\t\taddress = :address,\n\t\tcity = :city,\n\t\tstate = :state,\n\t\tzipcode = :zipcode \n\t\tWHERE oid = :oid\"\"\",\n              {\n                  'first': f_name_editor.get(),\n                  'last': l_name_editor.get(),\n                  'address': address_editor.get(),\n                  'city': city_editor.get(),",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tcity",
+        "kind": 5,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "\t\tcity = :city,\n\t\tstate = :state,\n\t\tzipcode = :zipcode \n\t\tWHERE oid = :oid\"\"\",\n              {\n                  'first': f_name_editor.get(),\n                  'last': l_name_editor.get(),\n                  'address': address_editor.get(),\n                  'city': city_editor.get(),\n                  'state': state_editor.get(),",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tstate",
+        "kind": 5,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "\t\tstate = :state,\n\t\tzipcode = :zipcode \n\t\tWHERE oid = :oid\"\"\",\n              {\n                  'first': f_name_editor.get(),\n                  'last': l_name_editor.get(),\n                  'address': address_editor.get(),\n                  'city': city_editor.get(),\n                  'state': state_editor.get(),\n                  'zipcode': zipcode_editor.get(),",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tzipcode",
+        "kind": 5,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "\t\tzipcode = :zipcode \n\t\tWHERE oid = :oid\"\"\",\n              {\n                  'first': f_name_editor.get(),\n                  'last': l_name_editor.get(),\n                  'address': address_editor.get(),\n                  'city': city_editor.get(),\n                  'state': state_editor.get(),\n                  'zipcode': zipcode_editor.get(),\n                  'oid': record_id",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "f_name",
+        "kind": 5,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "f_name = Entry(root, width=30)\nf_name.grid(row=0, column=1, padx=20, pady=(10, 0))\nl_name = Entry(root, width=30)\nl_name.grid(row=1, column=1)\naddress = Entry(root, width=30)\naddress.grid(row=2, column=1)\ncity = Entry(root, width=30)\ncity.grid(row=3, column=1)\nstate = Entry(root, width=30)\nstate.grid(row=4, column=1)",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "l_name",
+        "kind": 5,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "l_name = Entry(root, width=30)\nl_name.grid(row=1, column=1)\naddress = Entry(root, width=30)\naddress.grid(row=2, column=1)\ncity = Entry(root, width=30)\ncity.grid(row=3, column=1)\nstate = Entry(root, width=30)\nstate.grid(row=4, column=1)\nzipcode = Entry(root, width=30)\nzipcode.grid(row=5, column=1)",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "address",
+        "kind": 5,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "address = Entry(root, width=30)\naddress.grid(row=2, column=1)\ncity = Entry(root, width=30)\ncity.grid(row=3, column=1)\nstate = Entry(root, width=30)\nstate.grid(row=4, column=1)\nzipcode = Entry(root, width=30)\nzipcode.grid(row=5, column=1)\ndelete_box = Entry(root, width=30)\ndelete_box.grid(row=9, column=1, pady=5)",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "city",
+        "kind": 5,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "city = Entry(root, width=30)\ncity.grid(row=3, column=1)\nstate = Entry(root, width=30)\nstate.grid(row=4, column=1)\nzipcode = Entry(root, width=30)\nzipcode.grid(row=5, column=1)\ndelete_box = Entry(root, width=30)\ndelete_box.grid(row=9, column=1, pady=5)\nf_name_label = Label(root, text=\"First Name\")\nf_name_label.grid(row=0, column=0, pady=(10, 0))",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "state",
+        "kind": 5,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "state = Entry(root, width=30)\nstate.grid(row=4, column=1)\nzipcode = Entry(root, width=30)\nzipcode.grid(row=5, column=1)\ndelete_box = Entry(root, width=30)\ndelete_box.grid(row=9, column=1, pady=5)\nf_name_label = Label(root, text=\"First Name\")\nf_name_label.grid(row=0, column=0, pady=(10, 0))\nl_name_label = Label(root, text=\"Last Name\")\nl_name_label.grid(row=1, column=0)",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "zipcode",
+        "kind": 5,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "zipcode = Entry(root, width=30)\nzipcode.grid(row=5, column=1)\ndelete_box = Entry(root, width=30)\ndelete_box.grid(row=9, column=1, pady=5)\nf_name_label = Label(root, text=\"First Name\")\nf_name_label.grid(row=0, column=0, pady=(10, 0))\nl_name_label = Label(root, text=\"Last Name\")\nl_name_label.grid(row=1, column=0)\naddress_label = Label(root, text=\"Address\")\naddress_label.grid(row=2, column=0)",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "delete_box",
+        "kind": 5,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "delete_box = Entry(root, width=30)\ndelete_box.grid(row=9, column=1, pady=5)\nf_name_label = Label(root, text=\"First Name\")\nf_name_label.grid(row=0, column=0, pady=(10, 0))\nl_name_label = Label(root, text=\"Last Name\")\nl_name_label.grid(row=1, column=0)\naddress_label = Label(root, text=\"Address\")\naddress_label.grid(row=2, column=0)\ncity_label = Label(root, text=\"City\")\ncity_label.grid(row=3, column=0)",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "f_name_label",
+        "kind": 5,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "f_name_label = Label(root, text=\"First Name\")\nf_name_label.grid(row=0, column=0, pady=(10, 0))\nl_name_label = Label(root, text=\"Last Name\")\nl_name_label.grid(row=1, column=0)\naddress_label = Label(root, text=\"Address\")\naddress_label.grid(row=2, column=0)\ncity_label = Label(root, text=\"City\")\ncity_label.grid(row=3, column=0)\nstate_label = Label(root, text=\"State\")\nstate_label.grid(row=4, column=0)",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "l_name_label",
+        "kind": 5,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "l_name_label = Label(root, text=\"Last Name\")\nl_name_label.grid(row=1, column=0)\naddress_label = Label(root, text=\"Address\")\naddress_label.grid(row=2, column=0)\ncity_label = Label(root, text=\"City\")\ncity_label.grid(row=3, column=0)\nstate_label = Label(root, text=\"State\")\nstate_label.grid(row=4, column=0)\nzipcode_label = Label(root, text=\"Zipcode\")\nzipcode_label.grid(row=5, column=0)",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "address_label",
+        "kind": 5,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "address_label = Label(root, text=\"Address\")\naddress_label.grid(row=2, column=0)\ncity_label = Label(root, text=\"City\")\ncity_label.grid(row=3, column=0)\nstate_label = Label(root, text=\"State\")\nstate_label.grid(row=4, column=0)\nzipcode_label = Label(root, text=\"Zipcode\")\nzipcode_label.grid(row=5, column=0)\ndelete_box_label = Label(root, text=\"Select ID\")\ndelete_box_label.grid(row=9, column=0, pady=5)",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "city_label",
+        "kind": 5,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "city_label = Label(root, text=\"City\")\ncity_label.grid(row=3, column=0)\nstate_label = Label(root, text=\"State\")\nstate_label.grid(row=4, column=0)\nzipcode_label = Label(root, text=\"Zipcode\")\nzipcode_label.grid(row=5, column=0)\ndelete_box_label = Label(root, text=\"Select ID\")\ndelete_box_label.grid(row=9, column=0, pady=5)\nsubmit_btn = Button(root, text=\"Add Record To Database\", command=submit)\nsubmit_btn.grid(row=6, column=0, columnspan=2, pady=10, padx=10, ipadx=100)",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "state_label",
+        "kind": 5,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "state_label = Label(root, text=\"State\")\nstate_label.grid(row=4, column=0)\nzipcode_label = Label(root, text=\"Zipcode\")\nzipcode_label.grid(row=5, column=0)\ndelete_box_label = Label(root, text=\"Select ID\")\ndelete_box_label.grid(row=9, column=0, pady=5)\nsubmit_btn = Button(root, text=\"Add Record To Database\", command=submit)\nsubmit_btn.grid(row=6, column=0, columnspan=2, pady=10, padx=10, ipadx=100)\nquery_btn = Button(root, text=\"Show Records\", command=query)\nquery_btn.grid(row=7, column=0, columnspan=2, pady=10, padx=10, ipadx=137)",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "zipcode_label",
+        "kind": 5,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "zipcode_label = Label(root, text=\"Zipcode\")\nzipcode_label.grid(row=5, column=0)\ndelete_box_label = Label(root, text=\"Select ID\")\ndelete_box_label.grid(row=9, column=0, pady=5)\nsubmit_btn = Button(root, text=\"Add Record To Database\", command=submit)\nsubmit_btn.grid(row=6, column=0, columnspan=2, pady=10, padx=10, ipadx=100)\nquery_btn = Button(root, text=\"Show Records\", command=query)\nquery_btn.grid(row=7, column=0, columnspan=2, pady=10, padx=10, ipadx=137)\ndelete_btn = Button(root, text=\"Delete Record\", command=delete)\ndelete_btn.grid(row=10, column=0, columnspan=2, pady=10, padx=10, ipadx=136)",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "delete_box_label",
+        "kind": 5,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "delete_box_label = Label(root, text=\"Select ID\")\ndelete_box_label.grid(row=9, column=0, pady=5)\nsubmit_btn = Button(root, text=\"Add Record To Database\", command=submit)\nsubmit_btn.grid(row=6, column=0, columnspan=2, pady=10, padx=10, ipadx=100)\nquery_btn = Button(root, text=\"Show Records\", command=query)\nquery_btn.grid(row=7, column=0, columnspan=2, pady=10, padx=10, ipadx=137)\ndelete_btn = Button(root, text=\"Delete Record\", command=delete)\ndelete_btn.grid(row=10, column=0, columnspan=2, pady=10, padx=10, ipadx=136)\nedit_btn = Button(root, text=\"Edit Record\", command=edit)\nedit_btn.grid(row=11, column=0, columnspan=2, pady=10, padx=10, ipadx=143)",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "submit_btn",
+        "kind": 5,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "submit_btn = Button(root, text=\"Add Record To Database\", command=submit)\nsubmit_btn.grid(row=6, column=0, columnspan=2, pady=10, padx=10, ipadx=100)\nquery_btn = Button(root, text=\"Show Records\", command=query)\nquery_btn.grid(row=7, column=0, columnspan=2, pady=10, padx=10, ipadx=137)\ndelete_btn = Button(root, text=\"Delete Record\", command=delete)\ndelete_btn.grid(row=10, column=0, columnspan=2, pady=10, padx=10, ipadx=136)\nedit_btn = Button(root, text=\"Edit Record\", command=edit)\nedit_btn.grid(row=11, column=0, columnspan=2, pady=10, padx=10, ipadx=143)\nconn.commit()\nconn.close()",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "query_btn",
+        "kind": 5,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "query_btn = Button(root, text=\"Show Records\", command=query)\nquery_btn.grid(row=7, column=0, columnspan=2, pady=10, padx=10, ipadx=137)\ndelete_btn = Button(root, text=\"Delete Record\", command=delete)\ndelete_btn.grid(row=10, column=0, columnspan=2, pady=10, padx=10, ipadx=136)\nedit_btn = Button(root, text=\"Edit Record\", command=edit)\nedit_btn.grid(row=11, column=0, columnspan=2, pady=10, padx=10, ipadx=143)\nconn.commit()\nconn.close()\nroot.mainloop()",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "delete_btn",
+        "kind": 5,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "delete_btn = Button(root, text=\"Delete Record\", command=delete)\ndelete_btn.grid(row=10, column=0, columnspan=2, pady=10, padx=10, ipadx=136)\nedit_btn = Button(root, text=\"Edit Record\", command=edit)\nedit_btn.grid(row=11, column=0, columnspan=2, pady=10, padx=10, ipadx=143)\nconn.commit()\nconn.close()\nroot.mainloop()",
+        "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "edit_btn",
+        "kind": 5,
+        "importPath": "16-using-database",
+        "description": "16-using-database",
+        "peekOfCode": "edit_btn = Button(root, text=\"Edit Record\", command=edit)\nedit_btn.grid(row=11, column=0, columnspan=2, pady=10, padx=10, ipadx=143)\nconn.commit()\nconn.close()\nroot.mainloop()",
+        "detail": "16-using-database",
         "documentation": {}
     },
     {
