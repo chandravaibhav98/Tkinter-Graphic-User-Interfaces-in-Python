@@ -16,3 +16,5 @@
 - checkboxes
 - dropdown menus
 - using database -mysql with user data
+- weather apps
+- Charts with matplotlib

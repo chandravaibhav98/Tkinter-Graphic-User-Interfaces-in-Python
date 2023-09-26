@@ -152,6 +152,30 @@
         "documentation": {}
     },
     {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "ImageTk",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
         "label": "ImageTk",
         "importPath": "PIL",
         "description": "PIL",
@@ -368,6 +392,33 @@
         "importPath": "json",
         "description": "json",
         "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
         "documentation": {}
     },
     {
@@ -959,6 +1010,33 @@
         "description": "16-weather-app",
         "peekOfCode": "submitButton = Button(lookup_frame, text=\"Lookup\", command=zipLookup)\nsubmitButton.pack()\n# row=0, column=0, rowspan=1, sticky=W+E+N+S\nroot.mainloop()",
         "detail": "16-weather-app",
+        "documentation": {}
+    },
+    {
+        "label": "graph",
+        "kind": 2,
+        "importPath": "17-charts",
+        "description": "17-charts",
+        "peekOfCode": "def graph():\n    house_prices = np.random.normal(20000, 2500, 500)\n    plt.hist(house_prices, 100)\n    plt.show()\nmyButton = Button(root, text='Plot', command=graph).pack()\nroot.mainloop()",
+        "detail": "17-charts",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "17-charts",
+        "description": "17-charts",
+        "peekOfCode": "root = Tk()\nroot.title('Charts')\nroot.iconbitmap('./icons/codemy.ico')\nroot.geometry(\"80x80\")\ndef graph():\n    house_prices = np.random.normal(20000, 2500, 500)\n    plt.hist(house_prices, 100)\n    plt.show()\nmyButton = Button(root, text='Plot', command=graph).pack()\nroot.mainloop()",
+        "detail": "17-charts",
+        "documentation": {}
+    },
+    {
+        "label": "myButton",
+        "kind": 5,
+        "importPath": "17-charts",
+        "description": "17-charts",
+        "peekOfCode": "myButton = Button(root, text='Plot', command=graph).pack()\nroot.mainloop()",
+        "detail": "17-charts",
         "documentation": {}
     },
     {
