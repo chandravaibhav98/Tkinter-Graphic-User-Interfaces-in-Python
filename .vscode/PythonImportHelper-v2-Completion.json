@@ -144,6 +144,30 @@
         "documentation": {}
     },
     {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "ImageTk",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
         "label": "ImageTk",
         "importPath": "PIL",
         "description": "PIL",
@@ -326,6 +350,24 @@
         "importPath": "sqlite3",
         "description": "sqlite3",
         "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
         "documentation": {}
     },
     {
@@ -600,7 +642,7 @@
         "kind": 2,
         "importPath": "16-using-database",
         "description": "16-using-database",
-        "peekOfCode": "def edit():\n    root.withdraw()\n    global editor\n    editor = Tk()\n    editor.title('Update A Record')\n    editor.iconbitmap('c:/gui/codemy.ico')\n    editor.geometry(\"400x300\")\n    conn = sqlite3.connect('address_book.db')\n    c = conn.cursor()\n    record_id = delete_box.get()",
+        "peekOfCode": "def edit():\n    root.withdraw()\n    global editor\n    editor = Tk()\n    editor.title('Update A Record')\n    editor.iconbitmap('./icons/codemy.ico')\n    editor.geometry(\"400x300\")\n    conn = sqlite3.connect('address_book.db')\n    c = conn.cursor()\n    record_id = delete_box.get()",
         "detail": "16-using-database",
         "documentation": {}
     },
@@ -636,7 +678,7 @@
         "kind": 5,
         "importPath": "16-using-database",
         "description": "16-using-database",
-        "peekOfCode": "root = Tk()\nroot.title('Using Databases')\nroot.iconbitmap('./icons/codemy.ico')\nroot.geometry(\"400x600\")\n# Databases\nconn = sqlite3.connect('address_book.db')\nc = conn.cursor()\n# c.execute(\"\"\"CREATE TABLE addresses (\n# \t\tfirst_name text,\n# \t\tlast_name text,",
+        "peekOfCode": "root = Tk()\nroot.title('Using Databases')\nroot.iconbitmap('./icons/codemy.ico')\nroot.geometry(\"400x600\")\nconn = sqlite3.connect('address_book.db')\nc = conn.cursor()\n# c.execute(\"\"\"CREATE TABLE addresses (\n# \t\tfirst_name text,\n# \t\tlast_name text,\n# \t\taddress text,",
         "detail": "16-using-database",
         "documentation": {}
     },
@@ -872,6 +914,51 @@
         "description": "16-using-database",
         "peekOfCode": "edit_btn = Button(root, text=\"Edit Record\", command=edit)\nedit_btn.grid(row=11, column=0, columnspan=2, pady=10, padx=10, ipadx=143)\nconn.commit()\nconn.close()\nroot.mainloop()",
         "detail": "16-using-database",
+        "documentation": {}
+    },
+    {
+        "label": "zipLookup",
+        "kind": 2,
+        "importPath": "16-weather-app",
+        "description": "16-weather-app",
+        "peekOfCode": "def zipLookup():\n    import requests\n    import json\n    try:\n        api_request = requests.get(\"http://www.airnowapi.org/aq/observation/zipCode/current/?format=application/json&zipCode=\" +\n                                   zip.get() + \"&distance=5&API_KEY=96A38DFD-5C56-4740-AD99-E38C0C855A1B\")\n        api = json.loads(api_request.content)\n        city = api[0]['ReportingArea']\n        quality = api[0]['AQI']\n        category = api[0]['Category']['Name']",
+        "detail": "16-weather-app",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "16-weather-app",
+        "description": "16-weather-app",
+        "peekOfCode": "root = Tk()\nroot.title('Weather App')\nroot.iconbitmap('./icons/codemy.ico')\nroot.geometry(\"200x80\")\ndef zipLookup():\n    import requests\n    import json\n    try:\n        api_request = requests.get(\"http://www.airnowapi.org/aq/observation/zipCode/current/?format=application/json&zipCode=\" +\n                                   zip.get() + \"&distance=5&API_KEY=96A38DFD-5C56-4740-AD99-E38C0C855A1B\")",
+        "detail": "16-weather-app",
+        "documentation": {}
+    },
+    {
+        "label": "lookup_frame",
+        "kind": 5,
+        "importPath": "16-weather-app",
+        "description": "16-weather-app",
+        "peekOfCode": "lookup_frame = LabelFrame(root, text=\"Look Up Air Quality\", padx=5, pady=5)\nlookup_frame.pack(padx=5, pady=5)\nzip = Entry(lookup_frame)\nzip.pack()\nsubmitButton = Button(lookup_frame, text=\"Lookup\", command=zipLookup)\nsubmitButton.pack()\n# row=0, column=0, rowspan=1, sticky=W+E+N+S\nroot.mainloop()",
+        "detail": "16-weather-app",
+        "documentation": {}
+    },
+    {
+        "label": "zip",
+        "kind": 5,
+        "importPath": "16-weather-app",
+        "description": "16-weather-app",
+        "peekOfCode": "zip = Entry(lookup_frame)\nzip.pack()\nsubmitButton = Button(lookup_frame, text=\"Lookup\", command=zipLookup)\nsubmitButton.pack()\n# row=0, column=0, rowspan=1, sticky=W+E+N+S\nroot.mainloop()",
+        "detail": "16-weather-app",
+        "documentation": {}
+    },
+    {
+        "label": "submitButton",
+        "kind": 5,
+        "importPath": "16-weather-app",
+        "description": "16-weather-app",
+        "peekOfCode": "submitButton = Button(lookup_frame, text=\"Lookup\", command=zipLookup)\nsubmitButton.pack()\n# row=0, column=0, rowspan=1, sticky=W+E+N+S\nroot.mainloop()",
+        "detail": "16-weather-app",
         "documentation": {}
     },
     {

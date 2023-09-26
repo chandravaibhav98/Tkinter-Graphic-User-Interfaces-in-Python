@@ -14,3 +14,5 @@
 - file dialog
 - slider
 - checkboxes
+- dropdown menus
+- using database -mysql with user data
